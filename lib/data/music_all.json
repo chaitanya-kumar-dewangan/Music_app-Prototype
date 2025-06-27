@@ -1,0 +1,2131 @@
+[
+  {
+    "song_title": "Tum Hi Ho",
+    "singers": [
+      "Arijit Singh"
+    ],
+    "genre": "Romantic",
+    "year": 2013,
+    "audio_url": "https://music.youtube.com/watch?v=fsiPzT50ZiM",
+    "thumbnail": "https://i.pinimg.com/236x/d9/05/e6/d905e6be0f849b716a6011df2d37e383.jpg",
+    "movie_name": "Aashiqui 2",
+    "regional": "Hindi",
+    "duration": "4:22",
+    "mood": "Emotional",
+    "category": "Bollywood",
+    "id": "101"
+  },
+  {
+    "song_title": "Badtameez Dil",
+    "singers": [
+      "Benny Dayal"
+    ],
+    "genre": "Dance",
+    "year": 2013,
+    "audio_url": "https://example.com/audio/badtameez_dil.mp3",
+    "thumbnail": "https://example.com/images/badtameez_dil.jpg",
+    "movie_name": "Yeh Jawaani Hai Deewani",
+    "regional": "Hindi",
+    "duration": "4:12",
+    "mood": "Energetic",
+    "category": "Bollywood",
+    "id": "102"
+  },
+  {
+    "song_title": "Channa Mereya",
+    "singers": [
+      "Arijit Singh"
+    ],
+    "genre": "Soulful",
+    "year": 2016,
+    "audio_url": "https://example.com/audio/channa_mereya.mp3",
+    "thumbnail": "https://example.com/images/channa_mereya.jpg",
+    "movie_name": "Ae Dil Hai Mushkil",
+    "regional": "Hindi",
+    "duration": "4:50",
+    "mood": "Heartbroken",
+    "category": "Bollywood",
+    "id": "103"
+  },
+  {
+    "song_title": "Kala Chashma",
+    "singers": [
+      "Amar Arshi",
+      "Badshah",
+      "Neha Kakkar"
+    ],
+    "genre": "Party",
+    "year": 2016,
+    "audio_url": "https://example.com/audio/kala_chashma.mp3",
+    "thumbnail": "https://example.com/images/kala_chashma.jpg",
+    "movie_name": "Baar Baar Dekho",
+    "regional": "Hindi",
+    "duration": "3:06",
+    "mood": "Celebratory",
+    "category": "Bollywood",
+    "id": "104"
+  },
+  {
+    "song_title": "Zinda",
+    "singers": [
+      "Siddharth Mahadevan"
+    ],
+    "genre": "Rock",
+    "year": 2013,
+    "audio_url": "https://example.com/audio/zinda.mp3",
+    "thumbnail": "https://example.com/images/zinda.jpg",
+    "movie_name": "Bhaag Milkha Bhaag",
+    "regional": "Hindi",
+    "duration": "3:13",
+    "mood": "Motivational",
+    "category": "Bollywood",
+    "id": "105"
+  },
+  {
+    "song_title": "Tera Ban Jaunga",
+    "singers": [
+      "Akhil Sachdeva",
+      "Tulsi Kumar"
+    ],
+    "genre": "Romantic",
+    "year": 2019,
+    "audio_url": "https://example.com/audio/tera_ban_jaunga.mp3",
+    "thumbnail": "https://example.com/images/tera_ban_jaunga.jpg",
+    "movie_name": "Kabir Singh",
+    "regional": "Hindi",
+    "duration": "3:56",
+    "mood": "Loving",
+    "category": "Bollywood",
+    "id": "106"
+  },
+  {
+    "song_title": "Malhari",
+    "singers": [
+      "Vishal Dadlani"
+    ],
+    "genre": "Victory Anthem",
+    "year": 2015,
+    "audio_url": "https://example.com/audio/malhari.mp3",
+    "thumbnail": "https://example.com/images/malhari.jpg",
+    "movie_name": "Bajirao Mastani",
+    "regional": "Hindi",
+    "duration": "3:33",
+    "mood": "Triumphant",
+    "category": "Bollywood",
+    "id": "107"
+  },
+  {
+    "song_title": "Dil Diyan Gallan",
+    "singers": [
+      "Atif Aslam"
+    ],
+    "genre": "Melodic",
+    "year": 2017,
+    "audio_url": "https://example.com/audio/dil_diyan_gallan.mp3",
+    "thumbnail": "https://example.com/images/dil_diyan_gallan.jpg",
+    "movie_name": "Tiger Zinda Hai",
+    "regional": "Hindi",
+    "duration": "4:20",
+    "mood": "Romantic",
+    "category": "Bollywood",
+    "id": "108"
+  },
+  {
+    "song_title": "Galliyan",
+    "singers": [
+      "Ankit Tiwari"
+    ],
+    "genre": "Rock Ballad",
+    "year": 2014,
+    "audio_url": "https://example.com/audio/galliyan.mp3",
+    "thumbnail": "https://example.com/images/galliyan.jpg",
+    "movie_name": "Ek Villain",
+    "regional": "Hindi",
+    "duration": "5:10",
+    "mood": "Melancholic",
+    "category": "Bollywood",
+    "id": "109"
+  },
+  {
+    "song_title": "London Thumakda",
+    "singers": [
+      "Labh Janjua",
+      "Sonu Kakkar",
+      "Neha Kakkar"
+    ],
+    "genre": "Wedding",
+    "year": 2014,
+    "audio_url": "https://example.com/audio/london_thumakda.mp3",
+    "thumbnail": "https://example.com/images/london_thumakda.jpg",
+    "movie_name": "Queen",
+    "regional": "Hindi",
+    "duration": "3:49",
+    "mood": "Festive",
+    "category": "Bollywood",
+    "id": "110"
+  },
+  {
+    "song_title": "Butta Bomma",
+    "singers": [
+      "Armaan Malik"
+    ],
+    "genre": "Romantic",
+    "year": 2020,
+    "audio_url": "https://example.com/audio/butta_bomma.mp3",
+    "thumbnail": "https://example.com/images/butta_bomma.jpg",
+    "movie_name": "Ala Vaikunthapurramuloo",
+    "regional": "Telugu",
+    "duration": "3:18",
+    "mood": "Flirty",
+    "category": "Tollywood",
+    "id": "111"
+  },
+  {
+    "song_title": "Samajavaragamana",
+    "singers": [
+      "Sid Sriram"
+    ],
+    "genre": "Classical Fusion",
+    "year": 2019,
+    "audio_url": "https://example.com/audio/samajavaragamana.mp3",
+    "thumbnail": "https://example.com/images/samajavaragamana.jpg",
+    "movie_name": "Ala Vaikunthapurramuloo",
+    "regional": "Telugu",
+    "duration": "3:41",
+    "mood": "Soulful",
+    "category": "Tollywood",
+    "id": "112"
+  },
+  {
+    "song_title": "Rowdy Baby",
+    "singers": [
+      "Dhanush",
+      "Dhee"
+    ],
+    "genre": "Dance",
+    "year": 2018,
+    "audio_url": "https://example.com/audio/rowdy_baby.mp3",
+    "thumbnail": "https://example.com/images/rowdy_baby.jpg",
+    "movie_name": "Maari 2",
+    "regional": "Telugu",
+    "duration": "4:42",
+    "mood": "Energetic",
+    "category": "Tollywood",
+    "id": "113"
+  },
+  {
+    "song_title": "Inkem Inkem Inkem Kaavaale",
+    "singers": [
+      "Sid Sriram"
+    ],
+    "genre": "Romantic",
+    "year": 2018,
+    "audio_url": "https://example.com/audio/inkem_inkem.mp3",
+    "thumbnail": "https://example.com/images/inkem_inkem.jpg",
+    "movie_name": "Geetha Govindam",
+    "regional": "Telugu",
+    "duration": "4:23",
+    "mood": "Loving",
+    "category": "Tollywood",
+    "id": "114"
+  },
+  {
+    "song_title": "Nee Kannu Neeli Samudram",
+    "singers": [
+      "Javed Ali"
+    ],
+    "genre": "Melodic",
+    "year": 2020,
+    "audio_url": "https://example.com/audio/nee_kannu_neeli.mp3",
+    "thumbnail": "https://example.com/images/nee_kannu_neeli.jpg",
+    "movie_name": "Uppena",
+    "regional": "Telugu",
+    "duration": "5:25",
+    "mood": "Heartbroken",
+    "category": "Tollywood",
+    "id": "115"
+  },
+  {
+    "song_title": "Ammayi Nachindi",
+    "singers": [
+      "Sagar",
+      "Geetha Madhuri"
+    ],
+    "genre": "Peppy",
+    "year": 2023,
+    "audio_url": "https://example.com/audio/ammayi_nachindi.mp3",
+    "thumbnail": "https://example.com/images/ammayi_nachindi.jpg",
+    "movie_name": "DJ Tillu",
+    "regional": "Telugu",
+    "duration": "3:32",
+    "mood": "Playful",
+    "category": "Tollywood",
+    "id": "116"
+  },
+  {
+    "song_title": "Kodakaa Koteswar Rao",
+    "singers": [
+      "Pawan Kalyan"
+    ],
+    "genre": "Folk",
+    "year": 2018,
+    "audio_url": "https://example.com/audio/kodakaa_koteswar_rao.mp3",
+    "thumbnail": "https://example.com/images/kodakaa_koteswar_rao.jpg",
+    "movie_name": "Agnyaathavaasi",
+    "regional": "Telugu",
+    "duration": "3:25",
+    "mood": "Humorous",
+    "category": "Tollywood",
+    "id": "117"
+  },
+  {
+    "song_title": "Oo Antava",
+    "singers": [
+      "Indravathi Chauhan"
+    ],
+    "genre": "Item Song",
+    "year": 2021,
+    "audio_url": "https://example.com/audio/oo_antava.mp3",
+    "thumbnail": "https://example.com/images/oo_antava.jpg",
+    "movie_name": "Pushpa: The Rise",
+    "regional": "Telugu",
+    "duration": "3:15",
+    "mood": "Sensual",
+    "category": "Tollywood",
+    "id": "118"
+  },
+  {
+    "song_title": "Saami Saami",
+    "singers": [
+      "Mounika Yadav"
+    ],
+    "genre": "Folk Pop",
+    "year": 2021,
+    "audio_url": "https://example.com/audio/saami_saami.mp3",
+    "thumbnail": "https://example.com/images/saami_saami.jpg",
+    "movie_name": "Pushpa: The Rise",
+    "regional": "Telugu",
+    "duration": "3:47",
+    "mood": "Rustic",
+    "category": "Tollywood",
+    "id": "119"
+  },
+  {
+    "song_title": "Life of Ram",
+    "singers": [
+      "Pradeep Kumar"
+    ],
+    "genre": "Ambient",
+    "year": 2018,
+    "audio_url": "https://example.com/audio/life_of_ram.mp3",
+    "thumbnail": "https://example.com/images/life_of_ram.jpg",
+    "movie_name": "96",
+    "regional": "Telugu",
+    "duration": "4:50",
+    "mood": "Reflective",
+    "category": "Tollywood",
+    "id": "120"
+  },
+  {
+    "song_title": "Vaathi Coming",
+    "singers": [
+      "Anirudh Ravichander",
+      "Gana Balachandar"
+    ],
+    "genre": "Folk/Dance",
+    "year": 2020,
+    "audio_url": "https://example.com/audio/vaathi_coming.mp3",
+    "thumbnail": "https://example.com/images/vaathi_coming.jpg",
+    "movie_name": "Master",
+    "regional": "Tamil",
+    "duration": "4:10",
+    "mood": "Energetic",
+    "category": "Kollywood",
+    "id": "121"
+  },
+  {
+    "song_title": "Enna Solla Pogirai",
+    "singers": [
+      "Shweta Mohan",
+      "Karthik"
+    ],
+    "genre": "Romantic",
+    "year": 2015,
+    "audio_url": "https://example.com/audio/enna_solla_pogirai.mp3",
+    "thumbnail": "https://example.com/images/enna_solla_pogirai.jpg",
+    "movie_name": "Kandukondain Kandukondain",
+    "regional": "Tamil",
+    "duration": "4:29",
+    "mood": "Loving",
+    "category": "Kollywood",
+    "id": "122"
+  },
+  {
+    "song_title": "Why This Kolaveri Di",
+    "singers": [
+      "Dhanush"
+    ],
+    "genre": "Folk Pop",
+    "year": 2011,
+    "audio_url": "https://example.com/audio/kolaveri_di.mp3",
+    "thumbnail": "https://example.com/images/kolaveri_di.jpg",
+    "movie_name": "3",
+    "regional": "Tamil",
+    "duration": "4:08",
+    "mood": "Casual",
+    "category": "Kollywood",
+    "id": "123"
+  },
+  {
+    "song_title": "Kannamma",
+    "singers": [
+      "Sid Sriram"
+    ],
+    "genre": "Melodic",
+    "year": 2019,
+    "audio_url": "https://example.com/audio/kannamma.mp3",
+    "thumbnail": "https://example.com/images/kannamma.jpg",
+    "movie_name": "Kaithi",
+    "regional": "Tamil",
+    "duration": "3:43",
+    "mood": "Emotional",
+    "category": "Kollywood",
+    "id": "124"
+  },
+  {
+    "song_title": "Thalli Pogathey",
+    "singers": [
+      "Sid Sriram"
+    ],
+    "genre": "Romantic",
+    "year": 2015,
+    "audio_url": "https://example.com/audio/thalli_pogathey.mp3",
+    "thumbnail": "https://example.com/images/thalli_pogathey.jpg",
+    "movie_name": "Achcham Yenbadhu Madamaiyada",
+    "regional": "Tamil",
+    "duration": "4:52",
+    "mood": "Heartbroken",
+    "category": "Kollywood",
+    "id": "125"
+  },
+  {
+    "song_title": "Sodakku",
+    "singers": [
+      "Anthony Daasan"
+    ],
+    "genre": "Mass Folk",
+    "year": 2017,
+    "audio_url": "https://example.com/audio/sodakku.mp3",
+    "thumbnail": "https://example.com/images/sodakku.jpg",
+    "movie_name": "Thaanaa Serndha Koottam",
+    "regional": "Tamil",
+    "duration": "3:15",
+    "mood": "Rowdy",
+    "category": "Kollywood",
+    "id": "126"
+  },
+  {
+    "song_title": "Rowdy Baby",
+    "singers": [
+      "Dhanush",
+      "Dhee"
+    ],
+    "genre": "Dance",
+    "year": 2018,
+    "audio_url": "https://example.com/audio/rowdy_baby.mp3",
+    "thumbnail": "https://example.com/images/rowdy_baby.jpg",
+    "movie_name": "Maari 2",
+    "regional": "Tamil",
+    "duration": "4:42",
+    "mood": "Playful",
+    "category": "Kollywood",
+    "id": "127"
+  },
+  {
+    "song_title": "Kaattu Payale",
+    "singers": [
+      "Dhee"
+    ],
+    "genre": "Folk Fusion",
+    "year": 2020,
+    "audio_url": "https://example.com/audio/kaattu_payale.mp3",
+    "thumbnail": "https://example.com/images/kaattu_payale.jpg",
+    "movie_name": "Soorarai Pottru",
+    "regional": "Tamil",
+    "duration": "4:05",
+    "mood": "Flirtatious",
+    "category": "Kollywood",
+    "id": "128"
+  },
+  {
+    "song_title": "Munbe Vaa",
+    "singers": [
+      "Shreya Ghoshal",
+      "Naresh Iyer"
+    ],
+    "genre": "Melodic Love",
+    "year": 2006,
+    "audio_url": "https://example.com/audio/munbe_vaa.mp3",
+    "thumbnail": "https://example.com/images/munbe_vaa.jpg",
+    "movie_name": "Sillunu Oru Kaadhal",
+    "regional": "Tamil",
+    "duration": "5:10",
+    "mood": "Dreamy",
+    "category": "Kollywood",
+    "id": "129"
+  },
+  {
+    "song_title": "Aalaporan Thamizhan",
+    "singers": [
+      "Kailash Kher",
+      "Sathya Prakash",
+      "Deepak",
+      "Pooja Vaidyanath"
+    ],
+    "genre": "Folk Anthem",
+    "year": 2017,
+    "audio_url": "https://example.com/audio/aalaporan_thamizhan.mp3",
+    "thumbnail": "https://example.com/images/aalaporan_thamizhan.jpg",
+    "movie_name": "Mersal",
+    "regional": "Tamil",
+    "duration": "4:46",
+    "mood": "Proud",
+    "category": "Kollywood",
+    "id": "130"
+  },
+  {
+    "song_title": "Butta Bomma",
+    "singers": [
+      "Armaan Malik"
+    ],
+    "genre": "Romantic Pop",
+    "year": 2020,
+    "audio_url": "https://example.com/audio/butta_bomma.mp3",
+    "thumbnail": "https://example.com/images/butta_bomma.jpg",
+    "movie_name": "Ala Vaikunthapurramuloo",
+    "regional": "Telugu",
+    "duration": "3:18",
+    "mood": "Flirty",
+    "category": "Tollywood",
+    "id": "131"
+  },
+  {
+    "song_title": "Samajavaragamana",
+    "singers": [
+      "Sid Sriram"
+    ],
+    "genre": "Classical Fusion",
+    "year": 2019,
+    "audio_url": "https://example.com/audio/samajavaragamana.mp3",
+    "thumbnail": "https://example.com/images/samajavaragamana.jpg",
+    "movie_name": "Ala Vaikunthapurramuloo",
+    "regional": "Telugu",
+    "duration": "3:41",
+    "mood": "Soulful",
+    "category": "Tollywood",
+    "id": "132"
+  },
+  {
+    "song_title": "Inkem Inkem Inkem Kaavaale",
+    "singers": [
+      "Sid Sriram"
+    ],
+    "genre": "Romantic",
+    "year": 2018,
+    "audio_url": "https://example.com/audio/inkem_inkem.mp3",
+    "thumbnail": "https://example.com/images/inkem_inkem.jpg",
+    "movie_name": "Geetha Govindam",
+    "regional": "Telugu",
+    "duration": "4:23",
+    "mood": "Loving",
+    "category": "Tollywood",
+    "id": "133"
+  },
+  {
+    "song_title": "Nee Kannu Neeli Samudram",
+    "singers": [
+      "Javed Ali"
+    ],
+    "genre": "Melodic",
+    "year": 2020,
+    "audio_url": "https://example.com/audio/nee_kannu_neeli.mp3",
+    "thumbnail": "https://example.com/images/nee_kannu_neeli.jpg",
+    "movie_name": "Uppena",
+    "regional": "Telugu",
+    "duration": "5:25",
+    "mood": "Heartbroken",
+    "category": "Tollywood",
+    "id": "134"
+  },
+  {
+    "song_title": "Saami Saami",
+    "singers": [
+      "Mounika Yadav"
+    ],
+    "genre": "Folk Pop",
+    "year": 2021,
+    "audio_url": "https://example.com/audio/saami_saami.mp3",
+    "thumbnail": "https://example.com/images/saami_saami.jpg",
+    "movie_name": "Pushpa: The Rise",
+    "regional": "Telugu",
+    "duration": "3:47",
+    "mood": "Rustic",
+    "category": "Tollywood",
+    "id": "135"
+  },
+  {
+    "song_title": "Oo Antava",
+    "singers": [
+      "Indravathi Chauhan"
+    ],
+    "genre": "Item Song",
+    "year": 2021,
+    "audio_url": "https://example.com/audio/oo_antava.mp3",
+    "thumbnail": "https://example.com/images/oo_antava.jpg",
+    "movie_name": "Pushpa: The Rise",
+    "regional": "Telugu",
+    "duration": "3:15",
+    "mood": "Sensual",
+    "category": "Tollywood",
+    "id": "136"
+  },
+  {
+    "song_title": "Bullet Song",
+    "singers": [
+      "Simha",
+      "Mangli"
+    ],
+    "genre": "Folk",
+    "year": 2022,
+    "audio_url": "https://example.com/audio/bullet_song.mp3",
+    "thumbnail": "https://example.com/images/bullet_song.jpg",
+    "movie_name": "The Warrior",
+    "regional": "Telugu",
+    "duration": "3:29",
+    "mood": "Celebratory",
+    "category": "Tollywood",
+    "id": "137"
+  },
+  {
+    "song_title": "Leharaayi",
+    "singers": [
+      "Haricharan"
+    ],
+    "genre": "Romantic",
+    "year": 2022,
+    "audio_url": "https://example.com/audio/leharaayi.mp3",
+    "thumbnail": "https://example.com/images/leharaayi.jpg",
+    "movie_name": "Most Eligible Bachelor",
+    "regional": "Telugu",
+    "duration": "4:12",
+    "mood": "Soothing",
+    "category": "Tollywood",
+    "id": "138"
+  },
+  {
+    "song_title": "Jala Jala Jalapaatham Nuvvu",
+    "singers": [
+      "Shreya Ghoshal",
+      "Siddh Sriram"
+    ],
+    "genre": "Melodic Duet",
+    "year": 2021,
+    "audio_url": "https://example.com/audio/jala_jala_jalapaatham.mp3",
+    "thumbnail": "https://example.com/images/jala_jala_jalapaatham.jpg",
+    "movie_name": "Sita Ramam",
+    "regional": "Telugu",
+    "duration": "4:30",
+    "mood": "Dreamy",
+    "category": "Tollywood",
+    "id": "139"
+  },
+  {
+    "song_title": "Ramulo Ramula",
+    "singers": [
+      "Anurag Kulkarni",
+      "Mangli"
+    ],
+    "genre": "Party",
+    "year": 2020,
+    "audio_url": "https://example.com/audio/ramulo_ramula.mp3",
+    "thumbnail": "https://example.com/images/ramulo_ramula.jpg",
+    "movie_name": "Ala Vaikunthapurramuloo",
+    "regional": "Telugu",
+    "duration": "4:05",
+    "mood": "Energetic",
+    "category": "Tollywood",
+    "id": "140"
+  },
+  {
+    "song_title": "Entammede Jimikki Kammal",
+    "singers": [
+      "Vineeth Sreenivasan",
+      "Renjith Unni"
+    ],
+    "genre": "Folk Pop",
+    "year": 2017,
+    "audio_url": "https://example.com/audio/jimikki_kammal.mp3",
+    "thumbnail": "https://example.com/images/jimikki_kammal.jpg",
+    "movie_name": "Velipadinte Pusthakam",
+    "regional": "Malayalam",
+    "duration": "3:33",
+    "mood": "Cheerful",
+    "category": "Mollywood",
+    "id": "141"
+  },
+  {
+    "song_title": "Malare",
+    "singers": [
+      "Vineeth Sreenivasan"
+    ],
+    "genre": "Romantic",
+    "year": 2015,
+    "audio_url": "https://example.com/audio/malare.mp3",
+    "thumbnail": "https://example.com/images/malare.jpg",
+    "movie_name": "Premam",
+    "regional": "Malayalam",
+    "duration": "4:47",
+    "mood": "Loving",
+    "category": "Mollywood",
+    "id": "142"
+  },
+  {
+    "song_title": "Pavizha Mazha",
+    "singers": [
+      "Karthik"
+    ],
+    "genre": "Melodic",
+    "year": 2019,
+    "audio_url": "https://example.com/audio/pavizha_mazha.mp3",
+    "thumbnail": "https://example.com/images/pavizha_mazha.jpg",
+    "movie_name": "Athiran",
+    "regional": "Malayalam",
+    "duration": "3:57",
+    "mood": "Soulful",
+    "category": "Mollywood",
+    "id": "143"
+  },
+  {
+    "song_title": "Vathikkalu Vellaripravu",
+    "singers": [
+      "Sithara Krishnakumar",
+      "Zia Ul Haq"
+    ],
+    "genre": "Folk",
+    "year": 2020,
+    "audio_url": "https://example.com/audio/vathikkalu.mp3",
+    "thumbnail": "https://example.com/images/vathikkalu.jpg",
+    "movie_name": "Sufiyum Sujatayum",
+    "regional": "Malayalam",
+    "duration": "3:58",
+    "mood": "Poetic",
+    "category": "Mollywood",
+    "id": "144"
+  },
+  {
+    "song_title": "Aaradhike",
+    "singers": [
+      "Shaan Rahman",
+      "Sooraj Santhosh"
+    ],
+    "genre": "Romantic",
+    "year": 2021,
+    "audio_url": "https://example.com/audio/aaradhike.mp3",
+    "thumbnail": "https://example.com/images/aaradhike.jpg",
+    "movie_name": "Ambili",
+    "regional": "Malayalam",
+    "duration": "4:01",
+    "mood": "Heartwarming",
+    "category": "Mollywood",
+    "id": "145"
+  },
+  {
+    "song_title": "Minungum Minnaminunge",
+    "singers": [
+      "Haricharan",
+      "Shweta Mohan"
+    ],
+    "genre": "Melodic",
+    "year": 2016,
+    "audio_url": "https://example.com/audio/minnaminunge.mp3",
+    "thumbnail": "https://example.com/images/minnaminunge.jpg",
+    "movie_name": "Oppam",
+    "regional": "Malayalam",
+    "duration": "4:05",
+    "mood": "Emotional",
+    "category": "Mollywood",
+    "id": "146"
+  },
+  {
+    "song_title": "Chundari Penne",
+    "singers": [
+      "Sooraj Santhosh"
+    ],
+    "genre": "Folk Pop",
+    "year": 2016,
+    "audio_url": "https://example.com/audio/chundari_penne.mp3",
+    "thumbnail": "https://example.com/images/chundari_penne.jpg",
+    "movie_name": "Charlie",
+    "regional": "Malayalam",
+    "duration": "3:38",
+    "mood": "Playful",
+    "category": "Mollywood",
+    "id": "147"
+  },
+  {
+    "song_title": "Mandaarame",
+    "singers": [
+      "Job Kurian"
+    ],
+    "genre": "Soft Rock",
+    "year": 2013,
+    "audio_url": "https://example.com/audio/mandaarame.mp3",
+    "thumbnail": "https://example.com/images/mandaarame.jpg",
+    "movie_name": "North 24 Kaatham",
+    "regional": "Malayalam",
+    "duration": "3:56",
+    "mood": "Reflective",
+    "category": "Mollywood",
+    "id": "148"
+  },
+  {
+    "song_title": "Ee Shishirakaalam",
+    "singers": [
+      "Job Kurian"
+    ],
+    "genre": "Acoustic",
+    "year": 2012,
+    "audio_url": "https://example.com/audio/ee_shishirakaalam.mp3",
+    "thumbnail": "https://example.com/images/ee_shishirakaalam.jpg",
+    "movie_name": "Mayaanadhi",
+    "regional": "Malayalam",
+    "duration": "4:11",
+    "mood": "Calm",
+    "category": "Mollywood",
+    "id": "149"
+  },
+  {
+    "song_title": "Uyiril Thodum",
+    "singers": [
+      "Sithara Krishnakumar",
+      "Sooraj Santhosh"
+    ],
+    "genre": "Romantic Melody",
+    "year": 2020,
+    "audio_url": "https://example.com/audio/uyiril_thodum.mp3",
+    "thumbnail": "https://example.com/images/uyiril_thodum.jpg",
+    "movie_name": "Kappela",
+    "regional": "Malayalam",
+    "duration": "4:22",
+    "mood": "Romantic",
+    "category": "Mollywood",
+    "id": "150"
+  },
+  {
+    "song_title": "Vaathi Coming",
+    "singers": [
+      "Anirudh Ravichander",
+      "Gana Balachandar"
+    ],
+    "genre": "Folk/Dance",
+    "year": 2020,
+    "audio_url": "https://example.com/audio/vaathi_coming.mp3",
+    "thumbnail": "https://example.com/images/vaathi_coming.jpg",
+    "movie_name": "Master",
+    "regional": "Tamil",
+    "duration": "4:10",
+    "mood": "Energetic",
+    "category": "Kollywood",
+    "id": "151"
+  },
+  {
+    "song_title": "Thalli Pogathey",
+    "singers": [
+      "Sid Sriram"
+    ],
+    "genre": "Romantic",
+    "year": 2015,
+    "audio_url": "https://example.com/audio/thalli_pogathey.mp3",
+    "thumbnail": "https://example.com/images/thalli_pogathey.jpg",
+    "movie_name": "Achcham Yenbadhu Madamaiyada",
+    "regional": "Tamil",
+    "duration": "4:52",
+    "mood": "Heartbroken",
+    "category": "Kollywood",
+    "id": "152"
+  },
+  {
+    "song_title": "Why This Kolaveri Di",
+    "singers": [
+      "Dhanush"
+    ],
+    "genre": "Folk Pop",
+    "year": 2011,
+    "audio_url": "https://example.com/audio/kolaveri_di.mp3",
+    "thumbnail": "https://example.com/images/kolaveri_di.jpg",
+    "movie_name": "3",
+    "regional": "Tamil",
+    "duration": "4:08",
+    "mood": "Playful",
+    "category": "Kollywood",
+    "id": "153"
+  },
+  {
+    "song_title": "Munbe Vaa",
+    "singers": [
+      "Shreya Ghoshal",
+      "Naresh Iyer"
+    ],
+    "genre": "Romantic Melody",
+    "year": 2006,
+    "audio_url": "https://example.com/audio/munbe_vaa.mp3",
+    "thumbnail": "https://example.com/images/munbe_vaa.jpg",
+    "movie_name": "Sillunu Oru Kaadhal",
+    "regional": "Tamil",
+    "duration": "5:10",
+    "mood": "Dreamy",
+    "category": "Kollywood",
+    "id": "154"
+  },
+  {
+    "song_title": "Aalaporan Thamizhan",
+    "singers": [
+      "Kailash Kher",
+      "Pooja V",
+      "Deepak",
+      "Sathya Prakash"
+    ],
+    "genre": "Folk Anthem",
+    "year": 2017,
+    "audio_url": "https://example.com/audio/aalaporan_thamizhan.mp3",
+    "thumbnail": "https://example.com/images/aalaporan_thamizhan.jpg",
+    "movie_name": "Mersal",
+    "regional": "Tamil",
+    "duration": "4:46",
+    "mood": "Proud",
+    "category": "Kollywood",
+    "id": "155"
+  },
+  {
+    "song_title": "Vera Level Sago",
+    "singers": [
+      "Anirudh Ravichander"
+    ],
+    "genre": "Motivational",
+    "year": 2021,
+    "audio_url": "https://example.com/audio/vera_level_sago.mp3",
+    "thumbnail": "https://example.com/images/vera_level_sago.jpg",
+    "movie_name": "Ayalaan",
+    "regional": "Tamil",
+    "duration": "3:55",
+    "mood": "Uplifting",
+    "category": "Kollywood",
+    "id": "156"
+  },
+  {
+    "song_title": "Kaattu Payale",
+    "singers": [
+      "Dhee"
+    ],
+    "genre": "Folk Fusion",
+    "year": 2020,
+    "audio_url": "https://example.com/audio/kaattu_payale.mp3",
+    "thumbnail": "https://example.com/images/kaattu_payale.jpg",
+    "movie_name": "Soorarai Pottru",
+    "regional": "Tamil",
+    "duration": "4:05",
+    "mood": "Flirtatious",
+    "category": "Kollywood",
+    "id": "157"
+  },
+  {
+    "song_title": "Yaanji",
+    "singers": [
+      "Sid Sriram",
+      "Chinmayi"
+    ],
+    "genre": "Romantic Duet",
+    "year": 2017,
+    "audio_url": "https://example.com/audio/yaanji.mp3",
+    "thumbnail": "https://example.com/images/yaanji.jpg",
+    "movie_name": "Vikram Vedha",
+    "regional": "Tamil",
+    "duration": "4:12",
+    "mood": "Loving",
+    "category": "Kollywood",
+    "id": "158"
+  },
+  {
+    "song_title": "Selfie Pulla",
+    "singers": [
+      "Vijay",
+      "Sunidhi Chauhan"
+    ],
+    "genre": "Dance Pop",
+    "year": 2014,
+    "audio_url": "https://example.com/audio/selfie_pulla.mp3",
+    "thumbnail": "https://example.com/images/selfie_pulla.jpg",
+    "movie_name": "Kaththi",
+    "regional": "Tamil",
+    "duration": "4:15",
+    "mood": "Fun",
+    "category": "Kollywood",
+    "id": "159"
+  },
+  {
+    "song_title": "Ennai Vittu",
+    "singers": [
+      "Sid Sriram"
+    ],
+    "genre": "Soulful",
+    "year": 2022,
+    "audio_url": "https://example.com/audio/ennai_vittu.mp3",
+    "thumbnail": "https://example.com/images/ennai_vittu.jpg",
+    "movie_name": "Love Today",
+    "regional": "Tamil",
+    "duration": "3:58",
+    "mood": "Emotional",
+    "category": "Kollywood",
+    "id": "160"
+  },
+  {
+    "song_title": "Zingaat",
+    "singers": [
+      "Ajay Gogavale",
+      "Atul Gogavale"
+    ],
+    "genre": "Dance",
+    "year": 2016,
+    "audio_url": "https://example.com/audio/zingaat.mp3",
+    "thumbnail": "https://example.com/images/zingaat.jpg",
+    "movie_name": "Sairat",
+    "regional": "Marathi",
+    "duration": "4:08",
+    "mood": "Energetic",
+    "category": "Marathi",
+    "id": "161"
+  },
+  {
+    "song_title": "Apsara Aali",
+    "singers": [
+      "Rohit Raut",
+      "Vaishali Samant"
+    ],
+    "genre": "Lavani",
+    "year": 2010,
+    "audio_url": "https://example.com/audio/apsara_aali.mp3",
+    "thumbnail": "https://example.com/images/apsara_aali.jpg",
+    "movie_name": "Natarang",
+    "regional": "Marathi",
+    "duration": "5:06",
+    "mood": "Traditional",
+    "category": "Marathi",
+    "id": "162"
+  },
+  {
+    "song_title": "Sairat Zaala Ji",
+    "singers": [
+      "Ajay Gogavale",
+      "Chinmayi Sripaada"
+    ],
+    "genre": "Romantic",
+    "year": 2016,
+    "audio_url": "https://example.com/audio/sairat_zaala_ji.mp3",
+    "thumbnail": "https://example.com/images/sairat_zaala_ji.jpg",
+    "movie_name": "Sairat",
+    "regional": "Marathi",
+    "duration": "5:02",
+    "mood": "Loving",
+    "category": "Marathi",
+    "id": "163"
+  },
+  {
+    "song_title": "Hi Chaal Turu Turu",
+    "singers": [
+      "Vaishali Samant"
+    ],
+    "genre": "Romantic Folk",
+    "year": 2003,
+    "audio_url": "https://example.com/audio/hi_chaal_turu_turu.mp3",
+    "thumbnail": "https://example.com/images/hi_chaal_turu_turu.jpg",
+    "movie_name": "Saatchya Aat Gharat",
+    "regional": "Marathi",
+    "duration": "4:00",
+    "mood": "Cheerful",
+    "category": "Marathi",
+    "id": "164"
+  },
+  {
+    "song_title": "Mala Jau Dya Na Ghari",
+    "singers": [
+      "Avadhoot Gupte"
+    ],
+    "genre": "Folk",
+    "year": 2005,
+    "audio_url": "https://example.com/audio/mala_jau_dya_na_ghari.mp3",
+    "thumbnail": "https://example.com/images/mala_jau_dya_na_ghari.jpg",
+    "movie_name": "Jogwa",
+    "regional": "Marathi",
+    "duration": "4:40",
+    "mood": "Playful",
+    "category": "Marathi",
+    "id": "165"
+  },
+  {
+    "song_title": "Kombdi Palali",
+    "singers": [
+      "Anand Shinde",
+      "Vaishali Samant"
+    ],
+    "genre": "Folk/Remix",
+    "year": 2010,
+    "audio_url": "https://example.com/audio/kombdi_palali.mp3",
+    "thumbnail": "https://example.com/images/kombdi_palali.jpg",
+    "movie_name": "Jatra",
+    "regional": "Marathi",
+    "duration": "3:50",
+    "mood": "Celebratory",
+    "category": "Marathi",
+    "id": "166"
+  },
+  {
+    "song_title": "Wajle Ki Bara",
+    "singers": [
+      "Vaishali Samant",
+      "Anand Shinde"
+    ],
+    "genre": "Lavani",
+    "year": 2010,
+    "audio_url": "https://example.com/audio/wajle_ki_bara.mp3",
+    "thumbnail": "https://example.com/images/wajle_ki_bara.jpg",
+    "movie_name": "Natarang",
+    "regional": "Marathi",
+    "duration": "4:36",
+    "mood": "Bold",
+    "category": "Marathi",
+    "id": "167"
+  },
+  {
+    "song_title": "Saang Na",
+    "singers": [
+      "Swapnil Bandodkar"
+    ],
+    "genre": "Melodic",
+    "year": 2012,
+    "audio_url": "https://example.com/audio/saang_na.mp3",
+    "thumbnail": "https://example.com/images/saang_na.jpg",
+    "movie_name": "Classmates",
+    "regional": "Marathi",
+    "duration": "4:12",
+    "mood": "Emotional",
+    "category": "Marathi",
+    "id": "168"
+  },
+  {
+    "song_title": "Jiv Rangala",
+    "singers": [
+      "Ajay Gogavale"
+    ],
+    "genre": "Melodic Folk",
+    "year": 2017,
+    "audio_url": "https://example.com/audio/jiv_rangala.mp3",
+    "thumbnail": "https://example.com/images/jiv_rangala.jpg",
+    "movie_name": "Jaundya Na Balasaheb",
+    "regional": "Marathi",
+    "duration": "3:59",
+    "mood": "Romantic",
+    "category": "Marathi",
+    "id": "169"
+  },
+  {
+    "song_title": "Tik Tik Vajate Dokyat",
+    "singers": [
+      "Sukhwinder Singh"
+    ],
+    "genre": "Thriller",
+    "year": 2015,
+    "audio_url": "https://example.com/audio/tik_tik_vajate.mp3",
+    "thumbnail": "https://example.com/images/tik_tik_vajate.jpg",
+    "movie_name": "Timepass",
+    "regional": "Marathi",
+    "duration": "3:45",
+    "mood": "Suspenseful",
+    "category": "Marathi",
+    "id": "170"
+  },
+  {
+    "song_title": "Khalasi",
+    "singers": [
+      "Aditya Gadhvi"
+    ],
+    "genre": "Folk Fusion",
+    "year": 2023,
+    "audio_url": "https://example.com/audio/khalasi.mp3",
+    "thumbnail": "https://example.com/images/khalasi.jpg",
+    "movie_name": "Single",
+    "regional": "Gujarati",
+    "duration": "3:50",
+    "mood": "Cultural Pride",
+    "category": "Gujarati",
+    "id": "171"
+  },
+  {
+    "song_title": "Mara Ghat Ma Birajta Shreenathji",
+    "singers": [
+      "Aishwarya Majmudar"
+    ],
+    "genre": "Devotional",
+    "year": 2020,
+    "audio_url": "https://example.com/audio/mara_ghat_ma.mp3",
+    "thumbnail": "https://example.com/images/mara_ghat_ma.jpg",
+    "movie_name": "Traditional",
+    "regional": "Gujarati",
+    "duration": "5:10",
+    "mood": "Spiritual",
+    "category": "Gujarati",
+    "id": "172"
+  },
+  {
+    "song_title": "Vaagyo Re Dhol",
+    "singers": [
+      "Kirtidan Gadhvi"
+    ],
+    "genre": "Garba",
+    "year": 2018,
+    "audio_url": "https://example.com/audio/vaagyo_re_dhol.mp3",
+    "thumbnail": "https://example.com/images/vaagyo_re_dhol.jpg",
+    "movie_name": "Hellaro",
+    "regional": "Gujarati",
+    "duration": "4:22",
+    "mood": "Festive",
+    "category": "Gujarati",
+    "id": "173"
+  },
+  {
+    "song_title": "Chogada",
+    "singers": [
+      "Darshan Raval",
+      "Asees Kaur"
+    ],
+    "genre": "Dandiya Pop",
+    "year": 2018,
+    "audio_url": "https://example.com/audio/chogada.mp3",
+    "thumbnail": "https://example.com/images/chogada.jpg",
+    "movie_name": "Loveyatri",
+    "regional": "Gujarati",
+    "duration": "3:30",
+    "mood": "Energetic",
+    "category": "Gujarati",
+    "id": "174"
+  },
+  {
+    "song_title": "Nagada Sang Dhol",
+    "singers": [
+      "Shreya Ghoshal",
+      "Osman Mir"
+    ],
+    "genre": "Traditional Folk",
+    "year": 2013,
+    "audio_url": "https://example.com/audio/nagada_sang_dhol.mp3",
+    "thumbnail": "https://example.com/images/nagada_sang_dhol.jpg",
+    "movie_name": "Goliyon Ki Raasleela Ram-Leela",
+    "regional": "Gujarati",
+    "duration": "3:56",
+    "mood": "Powerful",
+    "category": "Gujarati",
+    "id": "175"
+  },
+  {
+    "song_title": "Mangal Mangal",
+    "singers": [
+      "Bhoomi Trivedi"
+    ],
+    "genre": "Cinematic Folk",
+    "year": 2019,
+    "audio_url": "https://example.com/audio/mangal_mangal.mp3",
+    "thumbnail": "https://example.com/images/mangal_mangal.jpg",
+    "movie_name": "Mangal Mangal",
+    "regional": "Gujarati",
+    "duration": "3:45",
+    "mood": "Joyful",
+    "category": "Gujarati",
+    "id": "176"
+  },
+  {
+    "song_title": "Tari Mari Vato",
+    "singers": [
+      "Jignesh Kaviraj"
+    ],
+    "genre": "Romantic",
+    "year": 2020,
+    "audio_url": "https://example.com/audio/tari_mari_vato.mp3",
+    "thumbnail": "https://example.com/images/tari_mari_vato.jpg",
+    "movie_name": "Gujarati Love Album",
+    "regional": "Gujarati",
+    "duration": "4:08",
+    "mood": "Loving",
+    "category": "Gujarati",
+    "id": "177"
+  },
+  {
+    "song_title": "Gori Radha Ne Kaalo Kaan",
+    "singers": [
+      "Praful Dave"
+    ],
+    "genre": "Bhajan/Folk",
+    "year": 1995,
+    "audio_url": "https://example.com/audio/gori_radha_ne_kaalo_kaan.mp3",
+    "thumbnail": "https://example.com/images/gori_radha.jpg",
+    "movie_name": "Traditional",
+    "regional": "Gujarati",
+    "duration": "5:30",
+    "mood": "Devotional",
+    "category": "Gujarati",
+    "id": "178"
+  },
+  {
+    "song_title": "Rangtaali",
+    "singers": [
+      "Divya Kumar"
+    ],
+    "genre": "Garba",
+    "year": 2018,
+    "audio_url": "https://example.com/audio/rangtaali.mp3",
+    "thumbnail": "https://example.com/images/rangtaali.jpg",
+    "movie_name": "Loveyatri",
+    "regional": "Gujarati",
+    "duration": "3:40",
+    "mood": "Celebratory",
+    "category": "Gujarati",
+    "id": "179"
+  },
+  {
+    "song_title": "Radha Ne Shyam Mali Jashe",
+    "singers": [
+      "Hemant Chauhan"
+    ],
+    "genre": "Bhajan",
+    "year": 2016,
+    "audio_url": "https://example.com/audio/radha_ne_shyam.mp3",
+    "thumbnail": "https://example.com/images/radha_ne_shyam.jpg",
+    "movie_name": "Bhajan Collection",
+    "regional": "Gujarati",
+    "duration": "6:15",
+    "mood": "Peaceful",
+    "category": "Gujarati",
+    "id": "180"
+  },
+  {
+    "song_title": "Karabuu",
+    "singers": [
+      "Chandan Shetty"
+    ],
+    "genre": "Folk/Dance",
+    "year": 2020,
+    "audio_url": "https://example.com/audio/karabuu.mp3",
+    "thumbnail": "https://example.com/images/karabuu.jpg",
+    "movie_name": "Pogaru",
+    "regional": "Kannada",
+    "duration": "3:48",
+    "mood": "Energetic",
+    "category": "Kannada",
+    "id": "181"
+  },
+  {
+    "song_title": "Belageddu",
+    "singers": [
+      "Vijay Prakash"
+    ],
+    "genre": "Romantic",
+    "year": 2016,
+    "audio_url": "https://example.com/audio/belageddu.mp3",
+    "thumbnail": "https://example.com/images/belageddu.jpg",
+    "movie_name": "Kirik Party",
+    "regional": "Kannada",
+    "duration": "4:31",
+    "mood": "Loving",
+    "category": "Kannada",
+    "id": "182"
+  },
+  {
+    "song_title": "Sidila Bharava",
+    "singers": [
+      "Shashank Sheshagiri"
+    ],
+    "genre": "Rock Anthem",
+    "year": 2019,
+    "audio_url": "https://example.com/audio/sidila_bharava.mp3",
+    "thumbnail": "https://example.com/images/sidila_bharava.jpg",
+    "movie_name": "Yajamana",
+    "regional": "Kannada",
+    "duration": "3:38",
+    "mood": "Motivational",
+    "category": "Kannada",
+    "id": "183"
+  },
+  {
+    "song_title": "Tagaru Banthu Tagaru",
+    "singers": [
+      "Dr. Rajkumar"
+    ],
+    "genre": "Action",
+    "year": 2018,
+    "audio_url": "https://example.com/audio/tagaru_banthu.mp3",
+    "thumbnail": "https://example.com/images/tagaru_banthu.jpg",
+    "movie_name": "Tagaru",
+    "regional": "Kannada",
+    "duration": "3:05",
+    "mood": "Bold",
+    "category": "Kannada",
+    "id": "184"
+  },
+  {
+    "song_title": "Open The Bottle",
+    "singers": [
+      "Santosh Venky",
+      "Anuradha Bhat"
+    ],
+    "genre": "Party",
+    "year": 2019,
+    "audio_url": "https://example.com/audio/open_the_bottle.mp3",
+    "thumbnail": "https://example.com/images/open_the_bottle.jpg",
+    "movie_name": "Victory 2",
+    "regional": "Kannada",
+    "duration": "3:50",
+    "mood": "Celebratory",
+    "category": "Kannada",
+    "id": "185"
+  },
+  {
+    "song_title": "Huttidare Kannada Nadalli",
+    "singers": [
+      "Dr. Rajkumar"
+    ],
+    "genre": "Patriotic",
+    "year": 1993,
+    "audio_url": "https://example.com/audio/huttidare_kannada.mp3",
+    "thumbnail": "https://example.com/images/huttidare_kannada.jpg",
+    "movie_name": "Aakasmika",
+    "regional": "Kannada",
+    "duration": "4:09",
+    "mood": "Proud",
+    "category": "Kannada",
+    "id": "186"
+  },
+  {
+    "song_title": "Jokae",
+    "singers": [
+      "Anuradha Bhat",
+      "Vijay Prakash"
+    ],
+    "genre": "Retro Remix",
+    "year": 2018,
+    "audio_url": "https://example.com/audio/jokae.mp3",
+    "thumbnail": "https://example.com/images/jokae.jpg",
+    "movie_name": "KGF Chapter 1",
+    "regional": "Kannada",
+    "duration": "3:42",
+    "mood": "Groovy",
+    "category": "Kannada",
+    "id": "187"
+  },
+  {
+    "song_title": "Neene Raajakumari",
+    "singers": [
+      "Sonu Nigam"
+    ],
+    "genre": "Romantic Melody",
+    "year": 2006,
+    "audio_url": "https://example.com/audio/neene_raajakumari.mp3",
+    "thumbnail": "https://example.com/images/neene_raajakumari.jpg",
+    "movie_name": "Mungaru Male",
+    "regional": "Kannada",
+    "duration": "4:28",
+    "mood": "Emotional",
+    "category": "Kannada",
+    "id": "188"
+  },
+  {
+    "song_title": "Shaane Top Agavle",
+    "singers": [
+      "Chandan Shetty"
+    ],
+    "genre": "Hip-Hop",
+    "year": 2017,
+    "audio_url": "https://example.com/audio/shaane_top_agavle.mp3",
+    "thumbnail": "https://example.com/images/shaane_top_agavle.jpg",
+    "movie_name": "Single",
+    "regional": "Kannada",
+    "duration": "3:45",
+    "mood": "Swagger",
+    "category": "Kannada",
+    "id": "189"
+  },
+  {
+    "song_title": "Thamnam Thamnam",
+    "singers": [
+      "Armaan Malik"
+    ],
+    "genre": "Melodic Love",
+    "year": 2023,
+    "audio_url": "https://example.com/audio/thamnam_thamnam.mp3",
+    "thumbnail": "https://example.com/images/thamnam_thamnam.jpg",
+    "movie_name": "Single",
+    "regional": "Kannada",
+    "duration": "4:15",
+    "mood": "Romantic",
+    "category": "Kannada",
+    "id": "190"
+  },
+  {
+    "song_title": "295",
+    "singers": [
+      "Sidhu Moose Wala"
+    ],
+    "genre": "Hip-Hop",
+    "year": 2021,
+    "audio_url": "https://example.com/audio/295.mp3",
+    "thumbnail": "https://example.com/images/295.jpg",
+    "movie_name": "Single",
+    "regional": "Punjabi",
+    "duration": "4:33",
+    "mood": "Thoughtful",
+    "category": "Punjabi",
+    "id": "191"
+  },
+  {
+    "song_title": "Lover",
+    "singers": [
+      "Diljit Dosanjh"
+    ],
+    "genre": "Romantic",
+    "year": 2021,
+    "audio_url": "https://example.com/audio/lover.mp3",
+    "thumbnail": "https://example.com/images/lover.jpg",
+    "movie_name": "Moonchild Era",
+    "regional": "Punjabi",
+    "duration": "3:35",
+    "mood": "Loving",
+    "category": "Punjabi",
+    "id": "192"
+  },
+  {
+    "song_title": "Titliaan",
+    "singers": [
+      "Afsana Khan"
+    ],
+    "genre": "Sad",
+    "year": 2020,
+    "audio_url": "https://example.com/audio/titliaan.mp3",
+    "thumbnail": "https://example.com/images/titliaan.jpg",
+    "movie_name": "Single",
+    "regional": "Punjabi",
+    "duration": "4:10",
+    "mood": "Heartbroken",
+    "category": "Punjabi",
+    "id": "193"
+  },
+  {
+    "song_title": "Bijlee Bijlee",
+    "singers": [
+      "Harrdy Sandhu"
+    ],
+    "genre": "Dance Pop",
+    "year": 2021,
+    "audio_url": "https://example.com/audio/bijlee_bijlee.mp3",
+    "thumbnail": "https://example.com/images/bijlee_bijlee.jpg",
+    "movie_name": "Single",
+    "regional": "Punjabi",
+    "duration": "3:50",
+    "mood": "Energetic",
+    "category": "Punjabi",
+    "id": "194"
+  },
+  {
+    "song_title": "Excuses",
+    "singers": [
+      "AP Dhillon",
+      "Gurinder Gill"
+    ],
+    "genre": "Lo-Fi/RnB",
+    "year": 2021,
+    "audio_url": "https://example.com/audio/excuses.mp3",
+    "thumbnail": "https://example.com/images/excuses.jpg",
+    "movie_name": "Hidden Gems",
+    "regional": "Punjabi",
+    "duration": "3:45",
+    "mood": "Chill",
+    "category": "Punjabi",
+    "id": "195"
+  },
+  {
+    "song_title": "So High",
+    "singers": [
+      "Sidhu Moose Wala"
+    ],
+    "genre": "Rap/Hip-Hop",
+    "year": 2017,
+    "audio_url": "https://example.com/audio/so_high.mp3",
+    "thumbnail": "https://example.com/images/so_high.jpg",
+    "movie_name": "Single",
+    "regional": "Punjabi",
+    "duration": "3:41",
+    "mood": "Rebellious",
+    "category": "Punjabi",
+    "id": "196"
+  },
+  {
+    "song_title": "Naah",
+    "singers": [
+      "Harrdy Sandhu"
+    ],
+    "genre": "Dance Pop",
+    "year": 2017,
+    "audio_url": "https://example.com/audio/naah.mp3",
+    "thumbnail": "https://example.com/images/naah.jpg",
+    "movie_name": "Single",
+    "regional": "Punjabi",
+    "duration": "3:28",
+    "mood": "Flirty",
+    "category": "Punjabi",
+    "id": "197"
+  },
+  {
+    "song_title": "Laung Da Lashkara",
+    "singers": [
+      "Jasbir Jassi",
+      "Hard Kaur",
+      "Mahalakshmi Iyer"
+    ],
+    "genre": "Bhangra",
+    "year": 2011,
+    "audio_url": "https://example.com/audio/laung_da_lashkara.mp3",
+    "thumbnail": "https://example.com/images/laung_da_lashkara.jpg",
+    "movie_name": "Patiala House",
+    "regional": "Punjabi",
+    "duration": "3:53",
+    "mood": "Celebratory",
+    "category": "Punjabi",
+    "id": "198"
+  },
+  {
+    "song_title": "Jatt Da Muqabala",
+    "singers": [
+      "Sidhu Moose Wala"
+    ],
+    "genre": "Rap",
+    "year": 2019,
+    "audio_url": "https://example.com/audio/jatt_da_muqabala.mp3",
+    "thumbnail": "https://example.com/images/jatt_da_muqabala.jpg",
+    "movie_name": "Single",
+    "regional": "Punjabi",
+    "duration": "3:30",
+    "mood": "Aggressive",
+    "category": "Punjabi",
+    "id": "199"
+  },
+  {
+    "song_title": "Ve Maahi",
+    "singers": [
+      "Arijit Singh",
+      "Asees Kaur"
+    ],
+    "genre": "Romantic",
+    "year": 2019,
+    "audio_url": "https://example.com/audio/ve_maahi.mp3",
+    "thumbnail": "https://example.com/images/ve_maahi.jpg",
+    "movie_name": "Kesari",
+    "regional": "Punjabi",
+    "duration": "4:19",
+    "mood": "Soulful",
+    "category": "Punjabi",
+    "id": "200"
+  },
+  {
+    "song_title": "52 Gaj Ka Daman",
+    "singers": [
+      "Renuka Panwar"
+    ],
+    "genre": "Folk/Dance",
+    "year": 2020,
+    "audio_url": "https://example.com/audio/52_gaj_ka_daman.mp3",
+    "thumbnail": "https://example.com/images/52_gaj_ka_daman.jpg",
+    "movie_name": "Single",
+    "regional": "Haryanvi",
+    "duration": "3:10",
+    "mood": "Festive",
+    "category": "Haryanvi",
+    "id": "201"
+  },
+  {
+    "song_title": "Gypsy",
+    "singers": [
+      "Diler Kharkiya"
+    ],
+    "genre": "Pop",
+    "year": 2021,
+    "audio_url": "https://example.com/audio/gypsy.mp3",
+    "thumbnail": "https://example.com/images/gypsy.jpg",
+    "movie_name": "Single",
+    "regional": "Haryanvi",
+    "duration": "3:42",
+    "mood": "Cool",
+    "category": "Haryanvi",
+    "id": "202"
+  },
+  {
+    "song_title": "Badnam Gabru",
+    "singers": [
+      "Gulzaar Chhaniwala"
+    ],
+    "genre": "Hip-Hop/Folk",
+    "year": 2019,
+    "audio_url": "https://example.com/audio/badnam_gabru.mp3",
+    "thumbnail": "https://example.com/images/badnam_gabru.jpg",
+    "movie_name": "Single",
+    "regional": "Haryanvi",
+    "duration": "3:58",
+    "mood": "Rebellious",
+    "category": "Haryanvi",
+    "id": "203"
+  },
+  {
+    "song_title": "Yaar Ki Shaadi",
+    "singers": [
+      "Masoom Sharma",
+      "Sheenam Katholic"
+    ],
+    "genre": "Wedding Folk",
+    "year": 2021,
+    "audio_url": "https://example.com/audio/yaar_ki_shaadi.mp3",
+    "thumbnail": "https://example.com/images/yaar_ki_shaadi.jpg",
+    "movie_name": "Single",
+    "regional": "Haryanvi",
+    "duration": "4:05",
+    "mood": "Celebratory",
+    "category": "Haryanvi",
+    "id": "204"
+  },
+  {
+    "song_title": "Desi Desi Na Bolya Kar",
+    "singers": [
+      "Raj Mawar",
+      "Sweta Chauhan"
+    ],
+    "genre": "Folk/Patriotic",
+    "year": 2017,
+    "audio_url": "https://example.com/audio/desi_desi.mp3",
+    "thumbnail": "https://example.com/images/desi_desi.jpg",
+    "movie_name": "Single",
+    "regional": "Haryanvi",
+    "duration": "3:30",
+    "mood": "Proud",
+    "category": "Haryanvi",
+    "id": "205"
+  },
+  {
+    "song_title": "Gulabo",
+    "singers": [
+      "Diler Kharkiya"
+    ],
+    "genre": "Romantic",
+    "year": 2022,
+    "audio_url": "https://example.com/audio/gulabo.mp3",
+    "thumbnail": "https://example.com/images/gulabo.jpg",
+    "movie_name": "Single",
+    "regional": "Haryanvi",
+    "duration": "3:45",
+    "mood": "Loving",
+    "category": "Haryanvi",
+    "id": "206"
+  },
+  {
+    "song_title": "Filter Shot",
+    "singers": [
+      "Gulzaar Chhaniwala"
+    ],
+    "genre": "Hip-Hop",
+    "year": 2020,
+    "audio_url": "https://example.com/audio/filter_shot.mp3",
+    "thumbnail": "https://example.com/images/filter_shot.jpg",
+    "movie_name": "Single",
+    "regional": "Haryanvi",
+    "duration": "3:12",
+    "mood": "Bold",
+    "category": "Haryanvi",
+    "id": "207"
+  },
+  {
+    "song_title": "Chatak Matak",
+    "singers": [
+      "Renuka Panwar"
+    ],
+    "genre": "Dance",
+    "year": 2021,
+    "audio_url": "https://example.com/audio/chatak_matak.mp3",
+    "thumbnail": "https://example.com/images/chatak_matak.jpg",
+    "movie_name": "Single",
+    "regional": "Haryanvi",
+    "duration": "3:33",
+    "mood": "Vibrant",
+    "category": "Haryanvi",
+    "id": "208"
+  },
+  {
+    "song_title": "Bandook Margi",
+    "singers": [
+      "Ruchika Jangid",
+      "Masoom Sharma"
+    ],
+    "genre": "Folk/Dramatic",
+    "year": 2018,
+    "audio_url": "https://example.com/audio/bandook_margi.mp3",
+    "thumbnail": "https://example.com/images/bandook_margi.jpg",
+    "movie_name": "Single",
+    "regional": "Haryanvi",
+    "duration": "3:25",
+    "mood": "Attitude",
+    "category": "Haryanvi",
+    "id": "209"
+  },
+  {
+    "song_title": "Shraab Wargi",
+    "singers": [
+      "Ruchika Jangid"
+    ],
+    "genre": "Emotional Folk",
+    "year": 2020,
+    "audio_url": "https://example.com/audio/shraab_wargi.mp3",
+    "thumbnail": "https://example.com/images/shraab_wargi.jpg",
+    "movie_name": "Single",
+    "regional": "Haryanvi",
+    "duration": "3:55",
+    "mood": "Heartbroken",
+    "category": "Haryanvi",
+    "id": "210"
+  },
+  {
+    "song_title": "Mor Mann Ke Bharam",
+    "singers": [
+      "Anuj Sharma"
+    ],
+    "genre": "Romantic Folk",
+    "year": 2014,
+    "audio_url": "https://example.com/audio/mor_mann_ke_bharam.mp3",
+    "thumbnail": "https://example.com/images/mor_mann_ke_bharam.jpg",
+    "movie_name": "Mor Mann Ke Bharam",
+    "regional": "Chhattisgarhi",
+    "duration": "4:25",
+    "mood": "Loving",
+    "category": "Chhattisgarhi",
+    "id": "211"
+  },
+  {
+    "song_title": "Sasural Genda Phool",
+    "singers": [
+      "Rekha Bhardwaj",
+      "Shraddha Pandit"
+    ],
+    "genre": "Folk Fusion",
+    "year": 2009,
+    "audio_url": "https://example.com/audio/sasural_genda_phool.mp3",
+    "thumbnail": "https://example.com/images/sasural_genda_phool.jpg",
+    "movie_name": "Delhi-6",
+    "regional": "Chhattisgarhi",
+    "duration": "3:35",
+    "mood": "Playful",
+    "category": "Chhattisgarhi",
+    "id": "212"
+  },
+  {
+    "song_title": "Tor Naam Ke Mitha Mitha",
+    "singers": [
+      "Sunil Soni"
+    ],
+    "genre": "Devotional",
+    "year": 2018,
+    "audio_url": "https://example.com/audio/tor_naam_ke_mitha.mp3",
+    "thumbnail": "https://example.com/images/tor_naam_ke_mitha.jpg",
+    "movie_name": "Bhakti Special",
+    "regional": "Chhattisgarhi",
+    "duration": "5:12",
+    "mood": "Spiritual",
+    "category": "Chhattisgarhi",
+    "id": "213"
+  },
+  {
+    "song_title": "Raipur Wale Bhaiya",
+    "singers": [
+      "Sundrani Films"
+    ],
+    "genre": "Folk Pop",
+    "year": 2021,
+    "audio_url": "https://example.com/audio/raipur_wale_bhaiya.mp3",
+    "thumbnail": "https://example.com/images/raipur_wale_bhaiya.jpg",
+    "movie_name": "CG Hit Songs",
+    "regional": "Chhattisgarhi",
+    "duration": "3:45",
+    "mood": "Fun",
+    "category": "Chhattisgarhi",
+    "id": "214"
+  },
+  {
+    "song_title": "Bata De Re Sajanwa",
+    "singers": [
+      "Mamta Chandrakar"
+    ],
+    "genre": "Sad Folk",
+    "year": 2010,
+    "audio_url": "https://example.com/audio/bata_de_re_sajanwa.mp3",
+    "thumbnail": "https://example.com/images/bata_de_re_sajanwa.jpg",
+    "movie_name": "Lokgeet",
+    "regional": "Chhattisgarhi",
+    "duration": "4:18",
+    "mood": "Heartbroken",
+    "category": "Chhattisgarhi",
+    "id": "215"
+  },
+  {
+    "song_title": "Bhojli Tor Laaj",
+    "singers": [
+      "Anil Pahadi"
+    ],
+    "genre": "Folk",
+    "year": 2017,
+    "audio_url": "https://example.com/audio/bhojli_tor_laaj.mp3",
+    "thumbnail": "https://example.com/images/bhojli_tor_laaj.jpg",
+    "movie_name": "Traditional",
+    "regional": "Chhattisgarhi",
+    "duration": "3:55",
+    "mood": "Cultural",
+    "category": "Chhattisgarhi",
+    "id": "216"
+  },
+  {
+    "song_title": "Nache Mor Gaon Wale",
+    "singers": [
+      "Samrat Yaduvanshi"
+    ],
+    "genre": "Dance Folk",
+    "year": 2022,
+    "audio_url": "https://example.com/audio/nache_mor_gaon_wale.mp3",
+    "thumbnail": "https://example.com/images/nache_mor_gaon_wale.jpg",
+    "movie_name": "CG DJ Songs",
+    "regional": "Chhattisgarhi",
+    "duration": "3:30",
+    "mood": "Festive",
+    "category": "Chhattisgarhi",
+    "id": "217"
+  },
+  {
+    "song_title": "Kanha Ke Basuri",
+    "singers": [
+      "Mamta Chandrakar"
+    ],
+    "genre": "Devotional",
+    "year": 2016,
+    "audio_url": "https://example.com/audio/kanha_ke_basuri.mp3",
+    "thumbnail": "https://example.com/images/kanha_ke_basuri.jpg",
+    "movie_name": "Krishna Bhajan",
+    "regional": "Chhattisgarhi",
+    "duration": "4:20",
+    "mood": "Peaceful",
+    "category": "Chhattisgarhi",
+    "id": "218"
+  },
+  {
+    "song_title": "Dil Se Darshan Paaye",
+    "singers": [
+      "Anuj Sharma"
+    ],
+    "genre": "Bhajan",
+    "year": 2015,
+    "audio_url": "https://example.com/audio/dil_se_darshan_paaye.mp3",
+    "thumbnail": "https://example.com/images/dil_se_darshan_paaye.jpg",
+    "movie_name": "Bhakti Sangrah",
+    "regional": "Chhattisgarhi",
+    "duration": "4:50",
+    "mood": "Spiritual",
+    "category": "Chhattisgarhi",
+    "id": "219"
+  },
+  {
+    "song_title": "Baarish Ho Rahi Hai",
+    "singers": [
+      "Khuman Sahu"
+    ],
+    "genre": "Romantic Folk",
+    "year": 2023,
+    "audio_url": "https://example.com/audio/baarish_ho_rahi_hai.mp3",
+    "thumbnail": "https://example.com/images/baarish_ho_rahi_hai.jpg",
+    "movie_name": "CG Rain Love Songs",
+    "regional": "Chhattisgarhi",
+    "duration": "4:05",
+    "mood": "Romantic",
+    "category": "Chhattisgarhi",
+    "id": "220"
+  },
+  {
+    "song_title": "Tum Hi Ho",
+    "singers": [
+      "Arijit Singh"
+    ],
+    "genre": "Romantic",
+    "year": 2013,
+    "audio_url": "https://example.com/audio/tum_hi_ho.mp3",
+    "thumbnail": "https://example.com/images/tum_hi_ho.jpg",
+    "movie_name": "Aashiqui 2",
+    "regional": "Hindi",
+    "duration": "4:22",
+    "mood": "Emotional",
+    "category": "Bollywood",
+    "id": "221"
+  },
+  {
+    "song_title": "Tera Ban Jaunga",
+    "singers": [
+      "Akhil Sachdeva",
+      "Tulsi Kumar"
+    ],
+    "genre": "Romantic",
+    "year": 2019,
+    "audio_url": "https://example.com/audio/tera_ban_jaunga.mp3",
+    "thumbnail": "https://example.com/images/tera_ban_jaunga.jpg",
+    "movie_name": "Kabir Singh",
+    "regional": "Hindi",
+    "duration": "3:56",
+    "mood": "Loving",
+    "category": "Bollywood",
+    "id": "222"
+  },
+  {
+    "song_title": "Channa Mereya",
+    "singers": [
+      "Arijit Singh"
+    ],
+    "genre": "Soulful",
+    "year": 2016,
+    "audio_url": "https://example.com/audio/channa_mereya.mp3",
+    "thumbnail": "https://example.com/images/channa_mereya.jpg",
+    "movie_name": "Ae Dil Hai Mushkil",
+    "regional": "Hindi",
+    "duration": "4:50",
+    "mood": "Heartbroken",
+    "category": "Bollywood",
+    "id": "223"
+  },
+  {
+    "song_title": "Malhari",
+    "singers": [
+      "Vishal Dadlani"
+    ],
+    "genre": "Victory Anthem",
+    "year": 2015,
+    "audio_url": "https://example.com/audio/malhari.mp3",
+    "thumbnail": "https://example.com/images/malhari.jpg",
+    "movie_name": "Bajirao Mastani",
+    "regional": "Hindi",
+    "duration": "3:33",
+    "mood": "Triumphant",
+    "category": "Bollywood",
+    "id": "224"
+  },
+  {
+    "song_title": "Dil Diyan Gallan",
+    "singers": [
+      "Atif Aslam"
+    ],
+    "genre": "Melodic",
+    "year": 2017,
+    "audio_url": "https://example.com/audio/dil_diyan_gallan.mp3",
+    "thumbnail": "https://example.com/images/dil_diyan_gallan.jpg",
+    "movie_name": "Tiger Zinda Hai",
+    "regional": "Hindi",
+    "duration": "4:20",
+    "mood": "Romantic",
+    "category": "Bollywood",
+    "id": "225"
+  },
+  {
+    "song_title": "Badtameez Dil",
+    "singers": [
+      "Benny Dayal"
+    ],
+    "genre": "Dance",
+    "year": 2013,
+    "audio_url": "https://example.com/audio/badtameez_dil.mp3",
+    "thumbnail": "https://example.com/images/badtameez_dil.jpg",
+    "movie_name": "Yeh Jawaani Hai Deewani",
+    "regional": "Hindi",
+    "duration": "4:12",
+    "mood": "Energetic",
+    "category": "Bollywood",
+    "id": "226"
+  },
+  {
+    "song_title": "Galliyan",
+    "singers": [
+      "Ankit Tiwari"
+    ],
+    "genre": "Rock Ballad",
+    "year": 2014,
+    "audio_url": "https://example.com/audio/galliyan.mp3",
+    "thumbnail": "https://example.com/images/galliyan.jpg",
+    "movie_name": "Ek Villain",
+    "regional": "Hindi",
+    "duration": "5:10",
+    "mood": "Melancholic",
+    "category": "Bollywood",
+    "id": "227"
+  },
+  {
+    "song_title": "London Thumakda",
+    "singers": [
+      "Labh Janjua",
+      "Sonu Kakkar",
+      "Neha Kakkar"
+    ],
+    "genre": "Wedding",
+    "year": 2014,
+    "audio_url": "https://example.com/audio/london_thumakda.mp3",
+    "thumbnail": "https://example.com/images/london_thumakda.jpg",
+    "movie_name": "Queen",
+    "regional": "Hindi",
+    "duration": "3:49",
+    "mood": "Festive",
+    "category": "Bollywood",
+    "id": "228"
+  },
+  {
+    "song_title": "Zinda",
+    "singers": [
+      "Siddharth Mahadevan"
+    ],
+    "genre": "Rock",
+    "year": 2013,
+    "audio_url": "https://example.com/audio/zinda.mp3",
+    "thumbnail": "https://example.com/images/zinda.jpg",
+    "movie_name": "Bhaag Milkha Bhaag",
+    "regional": "Hindi",
+    "duration": "3:13",
+    "mood": "Motivational",
+    "category": "Bollywood",
+    "id": "229"
+  },
+  {
+    "song_title": "Kaun Tujhe",
+    "singers": [
+      "Palak Muchhal"
+    ],
+    "genre": "Romantic Melody",
+    "year": 2016,
+    "audio_url": "https://example.com/audio/kaun_tujhe.mp3",
+    "thumbnail": "https://example.com/images/kaun_tujhe.jpg",
+    "movie_name": "M.S. Dhoni: The Untold Story",
+    "regional": "Hindi",
+    "duration": "4:00",
+    "mood": "Soothing",
+    "category": "Bollywood",
+    "id": "230"
+  }
+]
