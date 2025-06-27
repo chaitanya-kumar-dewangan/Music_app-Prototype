@@ -2,7 +2,8 @@ import 'dart:convert';
 import 'dart:ui';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'data/music_data_model.dart';
+import '../data/music_data_model.dart';
+import 'mood_screen.dart';
 
 class CinestreamtunesHome extends StatefulWidget {
   const CinestreamtunesHome({super.key});
@@ -21,7 +22,9 @@ class _CinestreamtunesHomeState extends State<CinestreamtunesHome> {
   }
 
   Future<void> loadSongs() async {
-    final String response = await rootBundle.loadString('lib/data/music_all.json');
+    final String response = await rootBundle.loadString(
+      'lib/data/music_all.json',
+    );
     final List<dynamic> data = await json.decode(response);
     final List<Song> allSongs = data.map((e) => Song.fromJson(e)).toList();
     final Map<String, List<Song>> categorized = {};
@@ -79,9 +82,9 @@ class _CinestreamtunesHomeState extends State<CinestreamtunesHome> {
       flexibleSpace: LayoutBuilder(
         builder: (context, constraints) {
           final double percent =
-          ((constraints.maxHeight - collapsedHeight) /
-              (expandedHeight - collapsedHeight))
-              .clamp(0.0, 1.0);
+              ((constraints.maxHeight - collapsedHeight) /
+                      (expandedHeight - collapsedHeight))
+                  .clamp(0.0, 1.0);
 
           final double avatarSize = 34 + (56 - 34) * percent;
           final double nameFontSize = 14 + (22 - 14) * percent;
@@ -120,8 +123,9 @@ class _CinestreamtunesHomeState extends State<CinestreamtunesHome> {
                             children: [
                               CircleAvatar(
                                 radius: avatarSize / 2,
-                                backgroundImage:
-                                const AssetImage('assets/cover.jpg'),
+                                backgroundImage: const AssetImage(
+                                  'assets/cover.jpg',
+                                ),
                               ),
                               const SizedBox(width: 12),
                               Column(
@@ -158,8 +162,9 @@ class _CinestreamtunesHomeState extends State<CinestreamtunesHome> {
                             children: [
                               CircleAvatar(
                                 radius: avatarSize / 2,
-                                backgroundImage:
-                                const AssetImage('assets/cover.jpg'),
+                                backgroundImage: const AssetImage(
+                                  'assets/cover.jpg',
+                                ),
                               ),
                               const Spacer(),
                               const Icon(
@@ -211,27 +216,45 @@ class _CinestreamtunesHomeState extends State<CinestreamtunesHome> {
       ),
     );
   }
+
   List<Widget> _buildMoodChips({double fontSize = 12}) {
     final Set<String> moods = categorizedSongs.values
         .expand((songs) => songs.map((s) => s.mood))
         .toSet();
+
     return moods.map((mood) {
-      return Container(
-        margin: const EdgeInsets.only(right: 8),
-        child: ClipRRect(
-          borderRadius: BorderRadius.circular(12),
-          child: BackdropFilter(
-            filter: ImageFilter.blur(sigmaX: 10, sigmaY: 10),
-            child: Container(
-              padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 4),
-              decoration: BoxDecoration(
-                color: Colors.white.withOpacity(0.1),
-                borderRadius: BorderRadius.circular(12),
-                border: Border.all(color: Colors.white.withOpacity(0.2)),
+      return GestureDetector(
+        onTap: () {
+          Navigator.push(
+            context,
+            MaterialPageRoute(
+              builder: (_) => MoodSongsScreen(
+                mood: mood,
+                categorizedSongs: categorizedSongs,
               ),
-              child: Text(
-                mood,
-                style: TextStyle(color: Colors.white, fontSize: fontSize),
+            ),
+          );
+        },
+        child: Container(
+          margin: const EdgeInsets.only(right: 8),
+          child: ClipRRect(
+            borderRadius: BorderRadius.circular(12),
+            child: BackdropFilter(
+              filter: ImageFilter.blur(sigmaX: 10, sigmaY: 10),
+              child: Container(
+                padding: const EdgeInsets.symmetric(
+                  horizontal: 12,
+                  vertical: 4,
+                ),
+                decoration: BoxDecoration(
+                  color: Colors.white.withOpacity(0.1),
+                  borderRadius: BorderRadius.circular(12),
+                  border: Border.all(color: Colors.white.withOpacity(0.2)),
+                ),
+                child: Text(
+                  mood,
+                  style: TextStyle(color: Colors.white, fontSize: fontSize),
+                ),
               ),
             ),
           ),
@@ -246,10 +269,7 @@ class _CinestreamtunesHomeState extends State<CinestreamtunesHome> {
       children: categorizedSongs.entries.map((entry) {
         return Column(
           crossAxisAlignment: CrossAxisAlignment.start,
-          children: [
-            _sectionTitle(entry.key),
-            _horizontalList(entry.value),
-          ],
+          children: [_sectionTitle(entry.key), _horizontalList(entry.value)],
         );
       }).toList(),
     );
@@ -282,9 +302,7 @@ class _CinestreamtunesHomeState extends State<CinestreamtunesHome> {
           return Container(
             width: 140,
             margin: const EdgeInsets.only(right: 8),
-            decoration: BoxDecoration(
-              borderRadius: BorderRadius.circular(20),
-            ),
+            decoration: BoxDecoration(borderRadius: BorderRadius.circular(20)),
             clipBehavior: Clip.antiAlias,
             child: Stack(
               children: [
@@ -318,7 +336,10 @@ class _CinestreamtunesHomeState extends State<CinestreamtunesHome> {
                     child: BackdropFilter(
                       filter: ImageFilter.blur(sigmaX: 10, sigmaY: 10),
                       child: Container(
-                        padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 6),
+                        padding: const EdgeInsets.symmetric(
+                          horizontal: 10,
+                          vertical: 6,
+                        ),
                         decoration: BoxDecoration(
                           color: Colors.white.withOpacity(0.15),
                         ),
@@ -355,7 +376,11 @@ class _CinestreamtunesHomeState extends State<CinestreamtunesHome> {
 
                             // Play Button
                             IconButton(
-                              icon: const Icon(Icons.play_circle_fill, size: 28, color: Colors.white),
+                              icon: const Icon(
+                                Icons.play_circle_fill,
+                                size: 28,
+                                color: Colors.white,
+                              ),
                               onPressed: () {
                                 // TODO: Handle play song logic
                               },
@@ -391,8 +416,7 @@ class _CinestreamtunesHomeState extends State<CinestreamtunesHome> {
             begin: Alignment.topLeft,
             end: Alignment.bottomRight,
           ),
-          border:
-          Border.all(color: Colors.white.withOpacity(0.2), width: 1.2),
+          border: Border.all(color: Colors.white.withOpacity(0.2), width: 1.2),
         ),
         child: Row(
           children: [
@@ -402,14 +426,17 @@ class _CinestreamtunesHomeState extends State<CinestreamtunesHome> {
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  const Text("Tum Hi Ho",
-                      style: TextStyle(
-                        color: Colors.white,
-                        fontWeight: FontWeight.bold,
-                      )),
-                  const Text("Arijit Singh",
-                      style:
-                      TextStyle(color: Colors.white70, fontSize: 12)),
+                  const Text(
+                    "Tum Hi Ho",
+                    style: TextStyle(
+                      color: Colors.white,
+                      fontWeight: FontWeight.bold,
+                    ),
+                  ),
+                  const Text(
+                    "Arijit Singh",
+                    style: TextStyle(color: Colors.white70, fontSize: 12),
+                  ),
                   const SizedBox(height: 4),
                   Stack(
                     children: [
@@ -433,16 +460,20 @@ class _CinestreamtunesHomeState extends State<CinestreamtunesHome> {
                   const SizedBox(height: 2),
                   const Align(
                     alignment: Alignment.bottomRight,
-                    child: Text("3:06",
-                        style: TextStyle(
-                            color: Colors.white54, fontSize: 10)),
+                    child: Text(
+                      "3:06",
+                      style: TextStyle(color: Colors.white54, fontSize: 10),
+                    ),
                   ),
                 ],
               ),
             ),
             const SizedBox(width: 12),
-            const Icon(Icons.pause_circle_filled,
-                color: Colors.white, size: 36),
+            const Icon(
+              Icons.pause_circle_filled,
+              color: Colors.white,
+              size: 36,
+            ),
           ],
         ),
       ),
