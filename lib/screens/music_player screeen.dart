@@ -7,7 +7,11 @@ class SongPlayerScreen extends StatefulWidget {
   final Song song;
   final List<Song> relatedSongs;
 
-  const SongPlayerScreen({super.key, required this.song, required this.relatedSongs});
+  const SongPlayerScreen({
+    super.key,
+    required this.song,
+    required this.relatedSongs,
+  });
 
   @override
   State<SongPlayerScreen> createState() => _SongPlayerScreenState();
@@ -29,7 +33,8 @@ class _SongPlayerScreenState extends State<SongPlayerScreen> {
 
   void _loadPlayer(String url) {
     final videoId = YoutubePlayer.convertUrlToId(url);
-    _controller = YoutubePlayerController(
+    _controller =
+    YoutubePlayerController(
       initialVideoId: videoId ?? '',
       flags: const YoutubePlayerFlags(
         autoPlay: true,
@@ -94,7 +99,10 @@ class _SongPlayerScreenState extends State<SongPlayerScreen> {
         appBar: AppBar(
           backgroundColor: Colors.deepPurple.withOpacity(0.4),
           elevation: 0,
-          leading: const Icon(Icons.keyboard_arrow_down, color: Colors.white),
+          leading: IconButton(
+            icon: const Icon(Icons.keyboard_arrow_down, color: Colors.white),
+            onPressed: () => Navigator.pop(context),
+          ),
           centerTitle: true,
           title: Column(
             children: [
@@ -109,7 +117,10 @@ class _SongPlayerScreenState extends State<SongPlayerScreen> {
               ),
             ],
           ),
-          actions: const [Icon(Icons.headphones, color: Colors.white), SizedBox(width: 10.0,)],
+          actions: const [
+            Icon(Icons.headphones, color: Colors.white),
+            SizedBox(width: 10.0),
+          ],
         ),
 
         body: SafeArea(
@@ -117,10 +128,7 @@ class _SongPlayerScreenState extends State<SongPlayerScreen> {
           child: Stack(
             children: [
               Positioned.fill(
-                child: Image.network(
-                  _currentSong.thumbnail,
-                  fit: BoxFit.cover,
-                ),
+                child: Image.network(_currentSong.thumbnail, fit: BoxFit.cover),
               ),
               BackdropFilter(
                 filter: ImageFilter.blur(sigmaX: 5, sigmaY: 5),
@@ -142,33 +150,60 @@ class _SongPlayerScreenState extends State<SongPlayerScreen> {
                               child: ClipRRect(
                                 borderRadius: BorderRadius.circular(20),
                                 child: BackdropFilter(
-                                  filter: ImageFilter.blur(sigmaX: 20, sigmaY: 20),
+                                  filter: ImageFilter.blur(
+                                    sigmaX: 20,
+                                    sigmaY: 20,
+                                  ),
                                   child: Container(
                                     width: double.infinity,
-                                    padding: const EdgeInsets.fromLTRB(16, 50, 16, 20),
+                                    padding: const EdgeInsets.fromLTRB(
+                                      16,
+                                      50,
+                                      16,
+                                      20,
+                                    ),
                                     decoration: BoxDecoration(
                                       color: Colors.white.withOpacity(0.05),
                                       borderRadius: BorderRadius.circular(20),
-                                      border: Border.all(color: Colors.white.withOpacity(0.15), width: 0.8),
+                                      border: Border.all(
+                                        color: Colors.white.withOpacity(0.15),
+                                        width: 0.8,
+                                      ),
                                     ),
                                     child: Column(
                                       children: [
                                         Text(
                                           _currentSong.songTitle,
-                                          style: const TextStyle(color: Colors.white, fontSize: 18, fontWeight: FontWeight.bold),
+                                          style: const TextStyle(
+                                            color: Colors.white,
+                                            fontSize: 18,
+                                            fontWeight: FontWeight.bold,
+                                          ),
                                         ),
                                         const SizedBox(height: 4),
                                         Text(
                                           _currentSong.singers.join(', '),
-                                          style: const TextStyle(color: Colors.white70, fontSize: 13),
+                                          style: const TextStyle(
+                                            color: Colors.white70,
+                                            fontSize: 13,
+                                          ),
                                         ),
                                         const SizedBox(height: 6),
-                                        const Text('**********', style: TextStyle(color: Colors.white30)),
+                                        const Text(
+                                          '**********',
+                                          style: TextStyle(
+                                            color: Colors.white30,
+                                          ),
+                                        ),
                                         const SizedBox(height: 20),
                                         const Text(
                                           'Tera mera rishta hai kaisa\nIk pal door gawara nahi\nTere liye har roz hai jeete\nTujh ko diya mera waqt sabhi\nKoi lamha mera na ho tere bina\nHar saans pe naam tera\n\nKyunki tum hi ho\nAb tum hi ho......',
                                           textAlign: TextAlign.center,
-                                          style: TextStyle(color: Colors.white70, fontSize: 14, height: 1.6),
+                                          style: TextStyle(
+                                            color: Colors.white70,
+                                            fontSize: 14,
+                                            height: 1.6,
+                                          ),
                                         ),
                                       ],
                                     ),
@@ -178,12 +213,15 @@ class _SongPlayerScreenState extends State<SongPlayerScreen> {
                             ),
                             CircleAvatar(
                               radius: 28,
-                              backgroundImage: NetworkImage(_currentSong.thumbnail),
+                              backgroundImage: NetworkImage(
+                                _currentSong.thumbnail,
+                              ),
                             ),
                           ],
                         ),
                       ),
                       const SizedBox(height: 12),
+
                       Padding(
                         padding: const EdgeInsets.symmetric(horizontal: 24),
                         child: ClipRRect(
@@ -191,89 +229,93 @@ class _SongPlayerScreenState extends State<SongPlayerScreen> {
                           child: BackdropFilter(
                             filter: ImageFilter.blur(sigmaX: 15, sigmaY: 15),
                             child: Container(
-                              height: 95,
+                              height: 118,
                               padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 6),
                               decoration: BoxDecoration(
                                 color: Colors.white.withOpacity(0.1),
                                 borderRadius: BorderRadius.circular(16),
                               ),
-                              child: Column(
-                                mainAxisAlignment: MainAxisAlignment.start,
-                                children: [
-                                  // Slimmer slider
-                                  Row(
-                                    children: [
-                                      Expanded(
-                                        child: SliderTheme(
-                                          data: SliderTheme.of(context).copyWith(
-                                            trackHeight: 2,
-                                            thumbShape: const RoundSliderThumbShape(enabledThumbRadius: 5),
-                                            overlayShape: const RoundSliderOverlayShape(overlayRadius: 8),
-                                            activeTrackColor: Colors.deepPurple.shade700,
-                                            inactiveTrackColor: Colors.white30,
-                                            thumbColor: Colors.deepPurple,
-                                          ),
-                                          child: Slider(
-                                            value: _currentPosition.inSeconds.toDouble().clamp(0, _totalDuration.inSeconds.toDouble()),
-                                            max: _totalDuration.inSeconds.toDouble(),
-                                            onChanged: (value) {
-                                              _controller.seekTo(Duration(seconds: value.toInt()));
-                                            },
+                              child: SingleChildScrollView(
+
+                                child: Column(
+                                  mainAxisAlignment: MainAxisAlignment.start,
+                                  children: [
+                                    // Smaller Slider & Label
+                                    Row(
+                                      children: [
+                                        Expanded(
+                                          child: SliderTheme(
+                                            data: SliderTheme.of(context).copyWith(
+                                              thumbShape: const RoundSliderThumbShape(enabledThumbRadius: 4),
+                                              overlayShape: const RoundSliderOverlayShape(overlayRadius: 10),
+                                              trackHeight: 2,
+                                              activeTrackColor: Colors.deepPurple.shade700,
+                                              inactiveTrackColor: Colors.white30,
+                                              thumbColor: Colors.deepPurple,
+                                            ),
+                                            child: Slider(
+                                              value: _currentPosition.inSeconds.toDouble(),
+                                              max: _totalDuration.inSeconds.toDouble(),
+                                              onChanged: (value) {
+                                                _controller.seekTo(Duration(seconds: value.toInt()));
+                                              },
+                                            ),
                                           ),
                                         ),
-                                      ),
-                                      Text(
+                                      ],
+                                    ),
+                                    Align(
+                                      alignment: Alignment.centerRight,
+                                      child: Text(
                                         _formatDuration(_currentPosition),
                                         style: const TextStyle(color: Colors.white70, fontSize: 10),
                                       ),
-                                    ],
-                                  ),
-SizedBox(height: 12.0,),
-                                  // Compact controls row
-                                  Row(
-                                    mainAxisAlignment: MainAxisAlignment.center,
-                                    children: [
-                                      const Icon(Icons.favorite_border, color: Colors.white, size: 24),
-                                      const SizedBox(width: 10),
-                                      IconButton(
-                                        icon: const Icon(Icons.skip_previous, color: Colors.white, size: 24),
-                                        padding: EdgeInsets.zero,
-                                        constraints: const BoxConstraints(),
-                                        onPressed: () {
-                                          final currentIndex = widget.relatedSongs.indexOf(_currentSong);
-                                          if (currentIndex > 0) {
-                                            _playSelectedSong(widget.relatedSongs[currentIndex - 1]);
-                                          }
-                                        },
-                                      ),
-                                      const SizedBox(width: 4),
-                                      IconButton(
-                                        icon: Icon(
-                                          _isPlaying ? Icons.pause_circle_filled : Icons.play_circle_fill,
-                                          color: Colors.white,
-                                          size: 38,
+                                    ),
+                                    const SizedBox(height: 2),
+                                    // Smaller icons and spacing
+                                    Row(
+                                      mainAxisAlignment: MainAxisAlignment.center,
+                                      children: [
+                                        const Icon(Icons.favorite_border, color: Colors.white, size: 24),
+                                        const SizedBox(width: 12),
+                                        IconButton(
+                                          icon: const Icon(Icons.skip_previous, color: Colors.white, size: 24),
+                                          onPressed: () {
+                                            final currentIndex = widget.relatedSongs.indexOf(_currentSong);
+                                            if (currentIndex > 0) {
+                                              _playSelectedSong(widget.relatedSongs[currentIndex - 1]);
+                                            }
+                                          },
                                         ),
-                                        padding: EdgeInsets.zero,
-                                        constraints: const BoxConstraints(),
-                                        onPressed: _togglePlayPause,
-                                      ),
-                                      const SizedBox(width: 4),
-                                      IconButton(
-                                        icon: const Icon(Icons.skip_next, color: Colors.white, size: 24),
-                                        padding: EdgeInsets.zero,
-                                        constraints: const BoxConstraints(),
-                                        onPressed: () {
-                                          final currentIndex = widget.relatedSongs.indexOf(_currentSong);
-                                          if (currentIndex < widget.relatedSongs.length - 1) {
-                                            _playSelectedSong(widget.relatedSongs[currentIndex + 1]);
-                                          }
-                                        },
-                                      ),
-                                      const SizedBox(width: 10),
-                                      const Icon(Icons.queue_music, color: Colors.white, size: 24),
-                                    ],
-                                  ),
-                                ],
+                                        const SizedBox(width: 4),
+                                        IconButton(
+                                          icon: Icon(
+                                            _isPlaying ? Icons.pause_circle_filled : Icons.play_circle_fill,
+                                            color: Colors.white,
+                                            size: 38,
+                                          ),
+                                          onPressed: _togglePlayPause,
+                                        ),
+                                        const SizedBox(width: 4),
+                                        IconButton(
+                                          icon: const Icon(Icons.skip_next, color: Colors.white, size: 22),
+                                          onPressed: () {
+                                            final currentIndex = widget.relatedSongs.indexOf(_currentSong);
+                                            if (currentIndex < widget.relatedSongs.length - 1) {
+                                              _playSelectedSong(widget.relatedSongs[currentIndex + 1]);
+                                            }
+                                          },
+                                        ),
+                                        const SizedBox(width: 12),
+                                        const Icon(Icons.queue_music, color: Colors.white, size: 18),
+                                      ],
+                                    ),
+                                    Opacity(
+                                      opacity: 0,
+                                      child: player,
+                                    ),
+                                  ],
+                                ),
                               ),
                             ),
                           ),
@@ -304,7 +346,10 @@ SizedBox(height: 12.0,),
                           child: Container(
                             decoration: BoxDecoration(
                               color: Colors.white.withOpacity(0.08),
-                              border: Border.all(color: Colors.white12, width: 0.6),
+                              border: Border.all(
+                                color: Colors.white12,
+                                width: 0.6,
+                              ),
                             ),
                             padding: const EdgeInsets.fromLTRB(16, 12, 16, 12),
                             child: Column(
@@ -333,29 +378,50 @@ SizedBox(height: 12.0,),
                                 Expanded(
                                   child: ListView.builder(
                                     controller: scrollController,
-                                    itemCount: isExpanded ? widget.relatedSongs.length : (widget.relatedSongs.length >= 2 ? 2 : widget.relatedSongs.length),
+                                    itemCount: isExpanded
+                                        ? widget.relatedSongs.length
+                                        : (widget.relatedSongs.length >= 2
+                                        ? 2
+                                        : widget.relatedSongs.length),
                                     itemBuilder: (context, index) {
                                       final song = widget.relatedSongs[index];
                                       return ListTile(
                                         contentPadding: EdgeInsets.zero,
                                         leading: ClipRRect(
-                                          borderRadius: BorderRadius.circular(8),
-                                          child: Image.network(song.thumbnail, width: 48, height: 48, fit: BoxFit.cover),
+                                          borderRadius: BorderRadius.circular(
+                                            8,
+                                          ),
+                                          child: Image.network(
+                                            song.thumbnail,
+                                            width: 48,
+                                            height: 48,
+                                            fit: BoxFit.cover,
+                                          ),
                                         ),
                                         title: Text(
                                           song.songTitle,
-                                          style: const TextStyle(color: Colors.white, fontSize: 14, fontWeight: FontWeight.w500),
+                                          style: const TextStyle(
+                                            color: Colors.white,
+                                            fontSize: 14,
+                                            fontWeight: FontWeight.w500,
+                                          ),
                                         ),
                                         subtitle: Text(
                                           song.singers.join(', '),
-                                          style: const TextStyle(color: Colors.white60, fontSize: 12),
+                                          style: const TextStyle(
+                                            color: Colors.white60,
+                                            fontSize: 12,
+                                          ),
                                         ),
-                                        trailing: const Icon(Icons.more_vert, color: Colors.white54),
+                                        trailing: const Icon(
+                                          Icons.more_vert,
+                                          color: Colors.white54,
+                                        ),
                                         onTap: () => _playSelectedSong(song),
                                       );
                                     },
                                   ),
-                                )
+                                ),
                               ],
                             ),
                           ),
