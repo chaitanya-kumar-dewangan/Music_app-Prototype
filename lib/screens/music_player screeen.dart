@@ -132,7 +132,7 @@ class _SongPlayerScreenState extends State<SongPlayerScreen> {
               ),
               BackdropFilter(
                 filter: ImageFilter.blur(sigmaX: 5, sigmaY: 5),
-                child: Container(color: Colors.deepPurple.withOpacity(0.4)),
+                child: Container(color: Colors.deepPurple.withOpacity(0.2)),
               ),
               Positioned.fill(
                 child: SingleChildScrollView(
@@ -163,10 +163,10 @@ class _SongPlayerScreenState extends State<SongPlayerScreen> {
                                       20,
                                     ),
                                     decoration: BoxDecoration(
-                                      color: Colors.white.withOpacity(0.05),
+                                      color: Colors.deepPurple.withOpacity(0.2),
                                       borderRadius: BorderRadius.circular(20),
                                       border: Border.all(
-                                        color: Colors.white.withOpacity(0.15),
+                                        color: Colors.deepPurple.withOpacity(0.15),
                                         width: 0.8,
                                       ),
                                     ),
@@ -341,89 +341,86 @@ class _SongPlayerScreenState extends State<SongPlayerScreen> {
                           topLeft: Radius.circular(24),
                           topRight: Radius.circular(24),
                         ),
-                        child: BackdropFilter(
-                          filter: ImageFilter.blur(sigmaX: 20, sigmaY: 20),
-                          child: Container(
-                            decoration: BoxDecoration(
-                              color: Colors.white.withOpacity(0.08),
-                              border: Border.all(
-                                color: Colors.white12,
-                                width: 0.6,
+                        child: Container(
+                          decoration: BoxDecoration(
+                            color: Colors.deepPurple.withOpacity(0.8),
+                            border: Border.all(
+                              color: Colors.white12,
+                              width: 0.6,
+                            ),
+                          ),
+                          padding: const EdgeInsets.fromLTRB(16, 12, 16, 12),
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              Center(
+                                child: Container(
+                                  width: 40,
+                                  height: 4,
+                                  margin: const EdgeInsets.only(bottom: 8),
+                                  decoration: BoxDecoration(
+                                    color: Colors.white38,
+                                    borderRadius: BorderRadius.circular(2),
+                                  ),
+                                ),
                               ),
-                            ),
-                            padding: const EdgeInsets.fromLTRB(16, 12, 16, 12),
-                            child: Column(
-                              crossAxisAlignment: CrossAxisAlignment.start,
-                              children: [
-                                Center(
-                                  child: Container(
-                                    width: 40,
-                                    height: 4,
-                                    margin: const EdgeInsets.only(bottom: 8),
-                                    decoration: BoxDecoration(
-                                      color: Colors.white38,
-                                      borderRadius: BorderRadius.circular(2),
-                                    ),
-                                  ),
+                              const Text(
+                                'Next Playing',
+                                style: TextStyle(
+                                  color: Colors.white,
+                                  fontSize: 14,
+                                  fontWeight: FontWeight.bold,
                                 ),
-                                const Text(
-                                  'Next Playing',
-                                  style: TextStyle(
-                                    color: Colors.white,
-                                    fontSize: 14,
-                                    fontWeight: FontWeight.bold,
-                                  ),
+                              ),
+                              const SizedBox(height: 10),
+                              Expanded(
+                                child: ListView.builder(
+                                  controller: scrollController,
+                                  itemCount: isExpanded
+                                      ? widget.relatedSongs.length
+                                      : (widget.relatedSongs.length >= 2
+                                      ? 2
+                                      : widget.relatedSongs.length),
+                                  itemBuilder: (context, index) {
+                                    final song = widget.relatedSongs[index];
+                                    return ListTile(
+                                      contentPadding: EdgeInsets.zero,
+                                      leading: ClipRRect(
+                                        borderRadius: BorderRadius.circular(
+                                          8,
+                                        ),
+                                        child: Image.network(
+                                          song.thumbnail,
+                                          width: 48,
+                                          height: 48,
+                                          fit: BoxFit.cover,
+                                        ),
+                                      ),
+                                      title: Text(
+                                        song.songTitle,
+                                        style: const TextStyle(
+                                          color: Colors.white,
+                                          fontSize: 14,
+                                          fontWeight: FontWeight.w500,
+                                        ),
+                                      ),
+                                      subtitle: Text(
+                                        song.singers.join(', '),
+                                        style: const TextStyle(
+                                          color: Colors.white60,
+                                          fontSize: 12,
+                                        ),
+                                      ),
+                                      trailing: const Icon(
+                                        Icons.more_vert,
+                                        color: Colors.white54,
+                                      ),
+                                      onTap: () => _playSelectedSong(song),
+                                    );
+                                  },
                                 ),
-                                const SizedBox(height: 10),
-                                Expanded(
-                                  child: ListView.builder(
-                                    controller: scrollController,
-                                    itemCount: isExpanded
-                                        ? widget.relatedSongs.length
-                                        : (widget.relatedSongs.length >= 2
-                                        ? 2
-                                        : widget.relatedSongs.length),
-                                    itemBuilder: (context, index) {
-                                      final song = widget.relatedSongs[index];
-                                      return ListTile(
-                                        contentPadding: EdgeInsets.zero,
-                                        leading: ClipRRect(
-                                          borderRadius: BorderRadius.circular(
-                                            8,
-                                          ),
-                                          child: Image.network(
-                                            song.thumbnail,
-                                            width: 48,
-                                            height: 48,
-                                            fit: BoxFit.cover,
-                                          ),
-                                        ),
-                                        title: Text(
-                                          song.songTitle,
-                                          style: const TextStyle(
-                                            color: Colors.white,
-                                            fontSize: 14,
-                                            fontWeight: FontWeight.w500,
-                                          ),
-                                        ),
-                                        subtitle: Text(
-                                          song.singers.join(', '),
-                                          style: const TextStyle(
-                                            color: Colors.white60,
-                                            fontSize: 12,
-                                          ),
-                                        ),
-                                        trailing: const Icon(
-                                          Icons.more_vert,
-                                          color: Colors.white54,
-                                        ),
-                                        onTap: () => _playSelectedSong(song),
-                                      );
-                                    },
-                                  ),
-                                ),
-                              ],
-                            ),
+                              ),
+                            ],
                           ),
                         ),
                       );
