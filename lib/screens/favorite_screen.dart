@@ -58,12 +58,6 @@ class _FavoritesScreenState extends State<FavoritesScreen> {
         elevation: 0,
         leading: const Icon(Icons.favorite_border, color: Colors.white),
         title: const Text("My Favourites", style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold)),
-        // actions: const [
-        //   Padding(
-        //     padding: EdgeInsets.only(right: 16.0),
-        //     child: Icon(Icons.add, color: Colors.white),
-        //   ),
-        // ],
         actions: [
           Padding(
             padding: const EdgeInsets.only(right: 16.0),

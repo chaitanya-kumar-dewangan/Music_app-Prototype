@@ -5,7 +5,6 @@ import 'package:flutter/services.dart';
 import '../data/music_data_model.dart';
 import 'music_player screeen.dart';
 
-
 class SearchScreen extends StatefulWidget {
   const SearchScreen({super.key});
 
@@ -200,42 +199,4 @@ class _SearchScreenState extends State<SearchScreen> {
       ),
     );
   }
-
-  // Widget _buildBottomBar() {
-  //   return ClipRRect(
-  //     borderRadius: const BorderRadius.only(
-  //       topLeft: Radius.circular(12),
-  //       topRight: Radius.circular(12),
-  //     ),
-  //     child: Container(
-  //       decoration: BoxDecoration(
-  //         color: const Color(0xFF2A0A70).withOpacity(0.9), // Darker + transparent background
-  //         border: const Border(
-  //           top: BorderSide(color: Colors.white24, width: 0.5), // subtle top border
-  //         ),
-  //       ),
-  //       child: Theme(
-  //         data: Theme.of(context).copyWith(
-  //           canvasColor: Colors.transparent,
-  //           splashColor: Colors.transparent,
-  //           highlightColor: Colors.transparent,
-  //         ),
-  //         child: BottomNavigationBar(
-  //           backgroundColor: Colors.transparent,
-  //           selectedItemColor: Colors.white,
-  //           unselectedItemColor: Colors.white54,
-  //           showSelectedLabels: false,
-  //           showUnselectedLabels: false,
-  //           items: const [
-  //             BottomNavigationBarItem(icon: Icon(Icons.home), label: ''),
-  //             BottomNavigationBarItem(icon: Icon(Icons.search), label: ''),
-  //             BottomNavigationBarItem(icon: Icon(Icons.favorite), label: ''),
-  //             BottomNavigationBarItem(icon: Icon(Icons.person), label: ''),
-  //           ],
-  //         ),
-  //       ),
-  //     ),
-  //   );
-  // }
-
 }

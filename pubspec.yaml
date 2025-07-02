@@ -100,7 +100,6 @@ flutter:
     - assets/img.png
     - assets/img1.png
     - lib/data/music_all.json
-    - lib/data/music.json
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images

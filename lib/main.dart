@@ -16,7 +16,6 @@ void main() async {
       ],
       child: const MyApp(),
     ),
-
   );
   FlutterNativeSplash.remove(); // <-- Now remove splash AFTER delay
 }
@@ -36,32 +35,3 @@ class MyApp extends StatelessWidget {
     );
   }
 }
-
-// class SplashDelayScreen extends StatefulWidget {
-//   const SplashDelayScreen({super.key});
-//
-//   @override
-//   State<SplashDelayScreen> createState() => _SplashDelayScreenState();
-// }
-//
-// class _SplashDelayScreenState extends State<SplashDelayScreen> {
-//   @override
-//   void initState() {
-//     super.initState();
-//     Future.delayed(const Duration(seconds: 3), () {
-//       FlutterNativeSplash.remove(); // <-- Now remove splash AFTER delay
-//       Navigator.pushReplacement(
-//         context,
-//         MaterialPageRoute(builder: (_) => const CinestreamtunesHome()),
-//       );
-//     });
-//   }
-//
-//   @override
-//   Widget build(BuildContext context) {
-//     // Return empty screen — keeps native splash visible
-//     return const Scaffold(
-//       backgroundColor: Colors.deepPurple,
-//     );
-//   }
-// }

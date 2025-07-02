@@ -1,9 +1,7 @@
 import 'package:cinestreamtunes/services/player_provider.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-
 import '../screens/music_player screeen.dart';
-
 
 class NowPlayingBar extends StatelessWidget {
   const NowPlayingBar({super.key});
